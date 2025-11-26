@@ -1,0 +1,85 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Eagle Noter",
+  "logo": {
+    "light": "/favicon.ico",
+    "dark": "/favicon.ico"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#4a645d",
+    "light": "#50685f",
+    "dark": "#3d5450",
+    "background": {
+      "light": "#f5f0e6",
+      "dark": "#373737"
+    },
+    "anchors": {
+      "from": "#4a645d",
+      "to": "#b79e7d"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Dashboard",
+      "url": "https://eaglenoter.ai/auth"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://eaglenoter.ai"
+  },
+  "tabs": [
+    {
+      "name": "Help Center",
+      "url": "/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "getting-started/quickstart",
+        "getting-started/authentication"
+      ]
+    },
+    {
+      "group": "Core Features",
+      "pages": [
+        "features/instant-join",
+        "features/calendar-sync",
+        "features/real-time-transcription",
+        "features/ai-summaries",
+        "features/recordings",
+        "features/search-and-discovery",
+        "features/meeting-history"
+      ]
+    },
+    {
+      "group": "Meeting Bots",
+      "pages": [
+        "features/meeting-bots",
+        "integrations/google-meet",
+        "integrations/microsoft-teams"
+      ]
+    },
+    {
+      "group": "Settings",
+      "pages": [
+        "features/workspace-management"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "support/faq",
+        "support/troubleshooting"
+      ]
+    }
+  ],
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false
+  }
+}

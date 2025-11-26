@@ -1,0 +1,129 @@
+---
+title: "Microsoft Teams Integration"
+description: "AI-powered transcription and summaries for Microsoft Teams meetings"
+icon: "microsoft"
+---
+
+## Overview
+
+Eagle Noter supports Microsoft Teams meetings, including both personal and organizational Teams calls. Our bot joins as a guest participant to record, transcribe, and summarize your meetings.
+
+## How to Join a Teams Meeting
+
+### Instant Join
+
+Join any Teams meeting instantly:
+
+<Steps>
+  <Step title="Copy the Meeting Link">
+    Get the Teams meeting URL from your calendar invite or Teams app
+  </Step>
+  <Step title="Go to Instant Join">
+    Open the **Instant Join** tab in your Eagle Noter dashboard
+  </Step>
+  <Step title="Paste and Join">
+    Paste the URL and click **Join Meeting**
+  </Step>
+  <Step title="Admit the Bot">
+    The meeting host needs to admit the bot from the lobby
+  </Step>
+</Steps>
+
+### From Your Calendar
+
+If your Google Calendar contains Teams meeting links:
+
+1. Go to the **Calendars** tab
+2. Find your meeting with a Teams link
+3. Click **Invite Bot**
+4. The bot will join when the meeting starts
+
+## Admitting the Bot
+
+<Warning>
+For most Teams meetings, the bot joins as a guest and must be **admitted from the lobby** by the meeting organizer.
+</Warning>
+
+When the bot tries to join:
+
+1. The host sees a notification that someone is waiting in the lobby
+2. The host clicks **Admit** to let the bot in
+3. The bot starts recording immediately
+
+## Organizational Settings
+
+Depending on your organization's Microsoft 365 settings, additional configuration may be needed:
+
+| Setting | What It Means |
+|---------|---------------|
+| **Guest Access** | Must be enabled for external participants |
+| **Lobby Settings** | Controls who waits in lobby |
+| **Recording Policy** | May affect bot capabilities |
+
+<Note>
+If you're having trouble with the bot joining organizational Teams meetings, contact your IT administrator to verify guest access is enabled.
+</Note>
+
+## What Eagle Noter Captures
+
+| Feature | Support |
+|---------|--------|
+| Audio Recording | ✅ High-quality recording |
+| Real-time Transcription | ✅ Live transcription |
+| Speaker Identification | ✅ Detects who is speaking |
+| AI Summary | ✅ Generated after meeting |
+| Multiple Languages | ✅ Auto-detect or select language |
+
+<Note>
+The bot only processes **audio**. It does not read or capture meeting chat messages.
+</Note>
+
+## Language Support
+
+Configure your transcription language in **Options**:
+
+- **Auto (Multilingual)** - Automatically detects the language
+- **English** - Optimized for English
+- **German/Swiss German** - Optimized for German dialects  
+- **French** - Optimized for French
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Admit the bot promptly">
+    Watch for the lobby notification so the bot doesn't miss any content.
+  </Accordion>
+  <Accordion title="Check organization policies">
+    If you're in a corporate environment, verify guest access is enabled for your meetings.
+  </Accordion>
+  <Accordion title="Use good audio">
+    Better microphone quality leads to better transcription accuracy.
+  </Accordion>
+</AccordionGroup>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Bot stuck in lobby">
+    The meeting organizer needs to admit the bot. Look for the lobby notification in Teams.
+  </Accordion>
+  <Accordion title="Bot can't join at all">
+    - Verify the meeting link is correct
+    - Check that guest access is enabled for your organization
+    - Ensure the meeting has started
+  </Accordion>
+  <Accordion title="Bot was removed automatically">
+    Some organizations have policies that automatically remove guest participants. Contact your IT admin.
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
+    Learn more about instant meeting joining
+  </Card>
+  <Card title="Meeting Bots" icon="robot" href="/features/meeting-bots">
+    How our meeting bots work
+  </Card>
+</CardGroup>

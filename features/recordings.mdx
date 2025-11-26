@@ -1,0 +1,125 @@
+---
+title: "Recordings"
+description: "Upload, manage, and transcribe your meeting recordings"
+icon: "record-vinyl"
+---
+
+## Overview
+
+The **Recordings** section in Eagle Noter allows you to upload your own audio and video files for transcription and AI analysis. Whether you have a recording from an external source or want to process a meeting that wasn't captured by our bot, you can upload it here.
+
+## Uploading Recordings
+
+### Supported Formats
+
+Eagle Noter supports the following audio and video formats:
+
+**Audio:** MP3, M4A, WAV, OGG, FLAC, AAC, OPUS  
+**Video:** MP4, WEBM
+
+**Maximum file size:** 500 MB per upload
+
+### How to Upload
+
+<Steps>
+  <Step title="Go to Recordings">
+    Navigate to the **Recordings** tab in your workspace dashboard.
+  </Step>
+  <Step title="Click Upload">
+    Click the **Upload Recording** button in the top right corner.
+  </Step>
+  <Step title="Choose Upload Method">
+    You can either:
+    - **Upload a file** directly from your computer
+    - **Paste a URL** to a publicly accessible audio/video file
+  </Step>
+  <Step title="Add Details">
+    - **Title**: Give your recording a descriptive name
+    - **Description** (optional): Add notes about the recording
+    - **Language**: Select the language spoken in the recording
+  </Step>
+  <Step title="Process">
+    Click **Upload** and wait for processing. You'll see real-time progress as your file is uploaded and transcribed.
+  </Step>
+</Steps>
+
+### Upload from URL
+
+Have a recording hosted online? Simply paste the direct URL to the audio or video file, and Eagle Noter will download and process it automatically.
+
+<Note>
+The URL must be a direct link to the media file (ending in .mp3, .mp4, etc.) or a publicly accessible storage link.
+</Note>
+
+## Viewing Recordings
+
+Once processed, your recordings appear in the Recordings list. Click on any recording to view:
+
+- **Audio Player**: Play back the original recording directly in your browser
+- **Full Transcript**: Read the complete transcription with timestamps
+- **AI Summary**: Key points, decisions, and action items extracted by AI
+- **Export Options**: Download transcripts as subtitles (SRT/VTT) or text
+
+## Managing Recordings
+
+### Playback
+
+Each recording includes a built-in audio player that lets you:
+- Play, pause, and seek through the recording
+- Adjust playback speed
+- Jump to specific timestamps mentioned in the transcript
+
+### Bulk Selection
+
+You can select multiple recordings using the checkboxes to perform bulk actions like deletion.
+
+### Deleting Recordings
+
+To delete a recording:
+1. Select one or more recordings using the checkboxes
+2. Click the **Delete** button
+3. Confirm the deletion
+
+<Warning>
+Deleting a recording permanently removes the audio file, transcript, and AI summary. This action cannot be undone.
+</Warning>
+
+## Language Support
+
+When uploading, select the transcription language:
+
+| Language | Code | Description |
+|----------|------|-------------|
+| Auto (Multilingual) | `auto` | Automatically detects the language spoken |
+| English | `en` | Best for English recordings |
+| German/Swiss German | `de` | Optimized for German and Swiss German dialects |
+| French | `fr` | For French language recordings |
+
+<Tip>
+Use **Auto (Multilingual)** if your recording contains multiple languages or you're unsure of the primary language.
+</Tip>
+
+## Tips for Best Results
+
+<AccordionGroup>
+  <Accordion title="Audio Quality">
+    Clear audio with minimal background noise produces the best transcriptions. If possible, use recordings from dedicated microphones rather than laptop speakers.
+  </Accordion>
+  <Accordion title="Speaker Clarity">
+    Ensure speakers don't talk over each other. Clear turn-taking helps with accurate transcription and speaker identification.
+  </Accordion>
+  <Accordion title="File Size">
+    For very long recordings (over 2 hours), consider splitting them into smaller segments for faster processing.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="AI Summaries" icon="sparkles" href="/features/ai-summaries">
+    Automatically generate key points and action items from your recordings.
+  </Card>
+  <Card title="Transcription" icon="closed-captioning" href="/features/real-time-transcription">
+    Learn more about our transcription technology and export options.
+  </Card>
+</CardGroup>

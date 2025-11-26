@@ -1,0 +1,128 @@
+---
+title: "Workspace & Options"
+description: "Configure your workspace settings and preferences"
+icon: "gear"
+---
+
+## Overview
+
+The **Options** page lets you configure how Eagle Noter works for your workspace. Access it by clicking **Options** in the sidebar.
+
+## Agent Timeout
+
+Control when the bot automatically leaves idle meetings.
+
+| Setting | Description | Default |
+|---------|-------------|--------|
+| **No one joined timeout** | How many minutes the bot waits if nobody joins the meeting | 10 minutes |
+| **Everyone left timeout** | How many minutes the bot waits after everyone leaves before it also leaves | 5 minutes |
+
+<Tip>
+Enable **Leave automatically when idle** to have the bot exit meetings when no one is present, saving resources.
+</Tip>
+
+## Transcriber
+
+Configure the default transcription language used by the bot during meetings.
+
+### Transcription Language Options
+
+| Language | Description |
+|----------|-------------|
+| **Auto (Multilingual)** | Automatically detects the spoken language |
+| **English** | Optimized for English |
+| **German/Swiss German** | Optimized for German and Swiss German dialects |
+| **French** | Optimized for French |
+
+<Note>
+Choose the language that best matches what will be spoken in your meetings. Use "Auto" if you're unsure or if meetings include multiple languages.
+</Note>
+
+## AI Summary Language
+
+Choose the language for AI-generated meeting summaries and emails.
+
+### Summary Language Options
+
+| Language | Description |
+|----------|-------------|
+| **Auto** | Automatically detected from the meeting transcript |
+| **English** | Summaries always in English |
+| **German** | Summaries always in German |
+| **French** | Summaries always in French |
+| **Spanish** | Summaries always in Spanish |
+| **Italian** | Summaries always in Italian |
+| **Portuguese** | Summaries always in Portuguese |
+
+<Note>
+When set to "Auto", the summary language will be automatically detected from the meeting transcript. Otherwise, summaries will always be generated in your selected language.
+</Note>
+
+## Email Notifications
+
+Configure CC email addresses for meeting summaries.
+
+### How It Works
+
+After each meeting, Eagle Noter sends an email summary. You can add additional email addresses to receive copies:
+
+1. Go to **Options**
+2. Find the **Email Notifications** section
+3. Click **+ Add Email Address**
+4. Enter the email address
+5. Click **Save**
+
+All email addresses you add will be CC'd on all meeting summary emails.
+
+<Tip>
+Add your team members' email addresses so everyone gets the meeting summary automatically.
+</Tip>
+
+## Saving Changes
+
+After making any changes to your options, click the **Save** button in the top right corner to apply them.
+
+---
+
+## Workspaces
+
+Workspaces help you organize your meetings and collaborate with your team.
+
+### Creating a Workspace
+
+When you first sign up, you'll be prompted to create a workspace. You can also create additional workspaces later:
+
+1. Click on your workspace name in the sidebar
+2. Select **Create New Workspace**
+3. Give it a name and customize settings
+
+### Switching Workspaces
+
+If you belong to multiple workspaces:
+
+1. Click your workspace name in the sidebar
+2. Select the workspace you want to switch to
+3. Your dashboard will update to show that workspace's content
+
+### Shared Resources
+
+Within a workspace:
+- All meetings are visible to workspace members
+- Transcripts and summaries are shared
+- Search works across all workspace content
+- Email notifications can include the whole team
+
+<Tip>
+Create separate workspaces for different clients or projects to keep meeting content organized.
+</Tip>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Calendar Integration" icon="calendar" href="/features/calendar-sync">
+    Connect your Google or Microsoft calendar
+  </Card>
+  <Card title="AI Summaries" icon="sparkles" href="/features/ai-summaries">
+    Learn more about AI-generated summaries
+  </Card>
+</CardGroup>

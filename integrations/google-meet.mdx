@@ -1,0 +1,120 @@
+---
+title: "Google Meet Integration"
+description: "Add AI transcription to your Google Meet calls"
+icon: "google"
+---
+
+## Overview
+
+Eagle Noter works seamlessly with Google Meet. Our bot joins your call as a participant to record audio and generate transcripts and summaries, so you can focus on the conversation.
+
+## How to Join a Google Meet
+
+### Method 1: Instant Join
+
+Join any Google Meet instantly:
+
+<Steps>
+  <Step title="Copy the Meeting Link">
+    Get the Google Meet URL (e.g., `https://meet.google.com/abc-defg-hij`)
+  </Step>
+  <Step title="Go to Instant Join">
+    Open the **Instant Join** tab in your Eagle Noter dashboard
+  </Step>
+  <Step title="Paste and Join">
+    Paste the URL and click **Join Meeting**
+  </Step>
+  <Step title="Admit the Bot">
+    The meeting host needs to admit the bot from the waiting room
+  </Step>
+</Steps>
+
+### Method 2: From Your Calendar
+
+If you've connected your Google Calendar:
+
+1. Go to the **Calendars** tab
+2. Find your upcoming meeting with a Google Meet link
+3. Click **Invite Bot** next to the meeting
+4. The bot will join when the meeting starts
+
+[Learn how to connect your calendar →](/features/calendar-sync)
+
+## Admitting the Bot
+
+<Warning>
+Google Meet requires a participant to **admit** the bot from the waiting room. The bot cannot join automatically.
+</Warning>
+
+When the bot tries to join:
+
+1. A notification appears: *"Eagle Noter wants to join this call"*
+2. Click **Admit** to let the bot in
+3. The bot will start recording immediately
+
+<Tip>
+If you're the meeting organizer, watch for the "Someone wants to join" notification at the bottom of your screen.
+</Tip>
+
+## What Eagle Noter Captures
+
+| Feature | Support |
+|---------|--------|
+| Audio Recording | ✅ High-quality recording |
+| Real-time Transcription | ✅ Live transcription |
+| Speaker Identification | ✅ Detects who is speaking |
+| AI Summary | ✅ Generated after meeting |
+| Multiple Languages | ✅ Auto-detect or select language |
+
+## Language Support
+
+Configure your transcription language in **Options**:
+
+- **Auto (Multilingual)** - Automatically detects the language
+- **English** - Optimized for English
+- **German/Swiss German** - Optimized for German dialects
+- **French** - Optimized for French
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Admit the bot quickly">
+    The sooner you admit the bot, the less content it will miss. Watch for the notification when the meeting starts.
+  </Accordion>
+  <Accordion title="Use good microphones">
+    Better audio quality means better transcription. Use headsets or dedicated microphones when possible.
+  </Accordion>
+  <Accordion title="Inform participants">
+    Let others know the meeting is being recorded. The bot appears as a participant so everyone can see it.
+  </Accordion>
+</AccordionGroup>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Bot stuck in waiting room">
+    Make sure someone in the meeting admits the bot. Look for the notification at the bottom of the Google Meet window.
+  </Accordion>
+  <Accordion title="Bot can't join">
+    - Verify the meeting link is correct and complete
+    - Ensure the meeting has started (at least one person must be in it)
+    - Check that the meeting allows guests to join
+  </Accordion>
+  <Accordion title="Poor transcription quality">
+    - Check your microphone settings
+    - Reduce background noise
+    - Ensure speakers don't talk over each other
+    - Verify the correct language is selected in Options
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
+    Learn more about instant meeting joining
+  </Card>
+  <Card title="Calendar Sync" icon="calendar" href="/features/calendar-sync">
+    Connect your Google Calendar
+  </Card>
+</CardGroup>

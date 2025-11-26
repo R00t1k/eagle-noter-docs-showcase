@@ -1,0 +1,118 @@
+---
+title: "Instant Join"
+description: "Join any meeting immediately without calendar integration"
+icon: "bolt"
+---
+
+## Overview
+
+The **Instant Join** feature lets you send the Eagle Noter bot to any active meeting instantly. No calendar integration required - just paste a meeting link and the bot joins immediately.
+
+This is perfect for:
+- Ad-hoc meetings that aren't on your calendar
+- Quick calls you want to record
+- Testing the bot before connecting your calendar
+- Joining external meetings you've been invited to
+
+## How to Use Instant Join
+
+<Steps>
+  <Step title="Go to Instant Join">
+    Click **Instant Join** in the sidebar of your workspace dashboard.
+  </Step>
+  <Step title="Paste the Meeting Link">
+    Copy the full meeting URL and paste it into the input field.
+    
+    Supported formats:
+    - Google Meet: `https://meet.google.com/xxx-xxxx-xxx`
+    - Microsoft Teams: `https://teams.microsoft.com/l/meetup-join/...`
+  </Step>
+  <Step title="Click Join">
+    Click the **Join Meeting** button. The bot will start connecting immediately.
+  </Step>
+  <Step title="Admit the Bot">
+    The meeting host must **admit the bot** from the waiting room or lobby.
+  </Step>
+</Steps>
+
+## Supported Platforms
+
+| Platform | Support | Notes |
+|----------|---------|-------|
+| Google Meet | ✅ Full support | Host may need to admit from waiting room |
+| Microsoft Teams | ✅ Full support | Host must enable guest access and admit from lobby |
+
+## Bot Status
+
+Once you click Join, you'll see the bot's status update in real-time:
+
+- **Connecting** - Bot is joining the meeting
+- **Waiting** - Bot is in the waiting room/lobby
+- **Joined** - Bot is in the meeting and recording
+- **Transcribing** - Live transcription is active
+
+## What Happens After Joining
+
+While in the meeting:
+- The bot records all audio
+- Real-time transcription appears in your dashboard
+- Speaker identification detects who is talking
+
+After the meeting ends:
+- The bot automatically leaves
+- AI generates a summary with key points and action items
+- Everything is saved to your meeting history
+- You receive an email notification (if enabled)
+
+## Tips for Best Results
+
+<AccordionGroup>
+  <Accordion title="Admit the bot quickly">
+    The bot will wait in the lobby/waiting room. Make sure the host admits it promptly so it doesn't miss any content.
+  </Accordion>
+  <Accordion title="Verify the meeting has started">
+    The bot can only join meetings that are active. Make sure at least one person has already joined the meeting.
+  </Accordion>
+  <Accordion title="Check your language settings">
+    Before joining, make sure your transcription language is set correctly in **Options** for the best results.
+  </Accordion>
+</AccordionGroup>
+
+## Viewing Instant Join History
+
+All meetings you've joined via Instant Join are saved to your **Meetings** tab. You can:
+- View the full transcript
+- Read the AI-generated summary
+- Export subtitles (SRT/VTT)
+- Search across all your instant join sessions
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Bot won't join">
+    - Make sure the meeting link is correct and complete
+    - Verify the meeting is active (someone must be in it)
+    - Check that the platform is supported (Google Meet or Teams)
+  </Accordion>
+  <Accordion title="Bot stuck in waiting room">
+    - The host needs to admit the bot
+    - For Teams, guest access must be enabled by the organizer
+    - Ask the host to look for the bot in the lobby
+  </Accordion>
+  <Accordion title="No transcription appearing">
+    - Ensure people are speaking in the meeting
+    - Check your language settings match the spoken language
+    - Give it a few seconds - transcription may have a short delay
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Calendar Integration" icon="calendar" href="/features/calendar-sync">
+    Connect your calendar for scheduled bot joins.
+  </Card>
+  <Card title="Meeting Bots" icon="robot" href="/features/meeting-bots">
+    Learn more about how our bots work.
+  </Card>
+</CardGroup>

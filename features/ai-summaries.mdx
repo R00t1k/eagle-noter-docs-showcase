@@ -1,0 +1,145 @@
+---
+title: "AI Summaries"
+description: "Automatic meeting summaries with key points and action items"
+icon: "sparkles"
+---
+
+## Overview
+
+After every meeting, Eagle Noter automatically generates an AI-powered summary that captures the key points, decisions made, and action items. No more manual note-taking or missing important details.
+
+## What's Included in a Summary
+
+<CardGroup cols={2}>
+  <Card title="Meeting Summary" icon="file-lines">
+    A concise overview of what was discussed
+  </Card>
+  <Card title="Key Points" icon="list">
+    The main topics and important discussion points
+  </Card>
+  <Card title="Decisions Made" icon="gavel">
+    Key decisions reached during the meeting
+  </Card>
+  <Card title="Action Items" icon="check">
+    Tasks and follow-ups that were assigned
+  </Card>
+</CardGroup>
+
+## How It Works
+
+1. **Meeting ends** - The bot leaves and processing begins
+2. **Transcript analyzed** - AI reads through the full transcript
+3. **Summary generated** - Key information is extracted and organized
+4. **Email sent** - You receive the summary in your inbox (if enabled)
+5. **Available in dashboard** - View the full summary anytime
+
+<Note>
+Summary generation typically takes 1-2 minutes after the meeting ends.
+</Note>
+
+## Summary Languages
+
+You can configure which language your AI summaries are generated in. Go to **Options** in your workspace:
+
+| Language | Description |
+|----------|-------------|
+| Auto | Automatically matches the transcript language |
+| English | Summaries always in English |
+| German | Summaries always in German |
+| French | Summaries always in French |
+| Spanish | Summaries always in Spanish |
+| Italian | Summaries always in Italian |
+| Portuguese | Summaries always in Portuguese |
+
+<Tip>
+Using "Auto" will detect the language from your transcript and generate the summary in that language.
+</Tip>
+
+## Example Summary
+
+Here's what a typical AI summary looks like:
+
+<Card>
+**📋 MEETING SUMMARY**
+
+Weekly team sync covering Q1 product roadmap and customer feedback. Discussed upcoming feature release timeline and resource allocation.
+
+---
+
+**🎯 KEY POINTS**
+- Product roadmap for Q1 was reviewed and approved
+- Customer feedback from the last release was positive overall
+- Two sprint goals were defined for the next two weeks
+- Design review meeting scheduled for next Tuesday
+
+---
+
+**✅ DECISIONS MADE**
+- Launch new dashboard feature by end of January
+- Allocate two additional developers to bug fixes
+- Postpone mobile app update to Q2
+
+---
+
+**📌 ACTION ITEMS**
+- John: Create technical specification by Friday
+- Sarah: Schedule design review meeting
+- Mike: Update project timeline in project tracker
+
+---
+
+**➡️ NEXT STEPS**
+
+Follow-up meeting scheduled for January 22 to review progress.
+</Card>
+
+## Viewing Summaries
+
+Access your meeting summaries:
+
+1. Go to **Meetings** in your dashboard
+2. Click on any completed meeting
+3. The AI summary appears alongside the full transcript
+
+You can also:
+- **Search** summaries across all your meetings
+- **Share** summaries with workspace members
+- **Export** summaries with your transcript
+
+## Email Notifications
+
+Get summaries delivered to your inbox automatically:
+
+1. Go to **Options** in your workspace
+2. Find **Email Notifications**
+3. Enable summary emails
+4. Optionally add CC recipients
+
+<Tip>
+Add your team's email addresses as CC recipients so everyone gets the meeting summary.
+</Tip>
+
+## Tips for Better Summaries
+
+<AccordionGroup>
+  <Accordion title="Speak clearly">
+    Better transcription leads to better summaries. Clear audio and distinct speakers help the AI understand what was discussed.
+  </Accordion>
+  <Accordion title="Be explicit about action items">
+    When assigning tasks, say things like "John will handle the report by Friday" - this helps the AI identify action items.
+  </Accordion>
+  <Accordion title="Summarize decisions verbally">
+    When a decision is made, stating "So we've decided to..." helps the AI capture it.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Real-Time Transcription" icon="microphone" href="/features/real-time-transcription">
+    Learn about our transcription technology
+  </Card>
+  <Card title="Search" icon="magnifying-glass" href="/features/search-and-discovery">
+    Search across all your summaries and transcripts
+  </Card>
+</CardGroup>

@@ -1,0 +1,117 @@
+---
+title: "Calendar Integration"
+description: "Sync your calendars to auto-join meetings"
+icon: "calendar"
+---
+
+## Overview
+
+Connecting your calendar is the most powerful way to use Eagle Noter. Once connected, all your upcoming meetings with Google Meet or Microsoft Teams links will appear in your dashboard, ready for the bot to join with a single click.
+
+## Supported Calendars
+
+Eagle Noter supports both major calendar providers:
+
+- **Google Calendar** (Gmail, Google Workspace accounts)
+- **Microsoft Calendar** (Outlook, Microsoft 365, Exchange)
+
+## How to Connect Your Calendar
+
+<Steps>
+  <Step title="Go to Calendars">
+    Navigate to the **Calendars** tab in your workspace dashboard.
+  </Step>
+  <Step title="Choose Your Calendar Provider">
+    You'll see options for:
+    - **Google Calendar** - Click to connect your Google account
+    - **Microsoft Calendar** - Click to connect your Outlook/Microsoft 365 account
+  </Step>
+  <Step title="Authorize Access">
+    Sign in to your account and grant Eagle Noter permission to read your calendar events.
+  </Step>
+  <Step title="Connect Multiple Accounts">
+    You can connect multiple accounts from each provider using the **+ Connect Another Account** button.
+  </Step>
+  <Step title="View Your Meetings">
+    Once connected, your upcoming meetings will automatically appear in the Calendars tab.
+  </Step>
+</Steps>
+
+## What We Access
+
+For your privacy, Eagle Noter only reads:
+- **Event time** - When the meeting starts and ends
+- **Event title** - The name of the meeting
+- **Meeting link** - Google Meet or Teams URLs in the event
+
+<Warning>
+We do not read or store the content of your private appointments, attendee lists, or any other sensitive calendar data.
+</Warning>
+
+## Joining Calendar Meetings
+
+Once your calendar is connected:
+
+1. Go to the **Calendars** tab in your dashboard
+2. Find your upcoming meeting in the list
+3. Click the **Invite Bot** button next to the event
+4. The bot will be scheduled to join that specific meeting
+
+<Tip>
+The bot joins approximately 1 minute before the scheduled start time to ensure it doesn't miss any content.
+</Tip>
+
+## Meeting Detection
+
+Eagle Noter automatically detects meeting links in your calendar events:
+
+| Platform | Detection |
+|----------|-----------|
+| Google Meet | ✅ Automatically detected |
+| Microsoft Teams | ✅ Automatically detected |
+
+Events without a recognized meeting link will not show the "Invite Bot" option.
+
+## Auto-Join Settings
+
+You can configure automatic bot joining behavior in your workspace **Options**:
+
+- **Default behavior**: Manual invite required for each meeting
+- **Bot display name**: Customize how the bot appears in meetings
+
+## Disconnecting Your Calendar
+
+To disconnect a calendar:
+
+1. Go to the **Calendars** tab in your workspace
+2. Find the calendar you want to disconnect
+3. Click the **Disconnect** button next to it
+
+<Note>
+Disconnecting a calendar will remove it from your dashboard. You can reconnect at any time.
+</Note>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="My meetings aren't showing up">
+    Make sure your calendar is properly connected. Try disconnecting and reconnecting your Google account. Also ensure your meetings have a valid Google Meet or Teams link.
+  </Accordion>
+  <Accordion title="The bot didn't join my meeting">
+    Check that the meeting link is valid and accessible. For Google Meet, ensure the meeting has started. For Teams, make sure the organizer has enabled guest access.
+  </Accordion>
+  <Accordion title="I see duplicate meetings">
+    This can happen if you have multiple calendars. Eagle Noter pulls from your primary calendar by default.
+  </Accordion>
+</AccordionGroup>
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
+    Join any meeting instantly without calendar integration.
+  </Card>
+  <Card title="Meeting History" icon="clock-rotate-left" href="/features/meeting-history">
+    View all your past meetings and their recordings.
+  </Card>
+</CardGroup>

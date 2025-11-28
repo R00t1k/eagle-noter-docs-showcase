@@ -1,117 +1,133 @@
 ---
-title: "Calendar Integration"
-description: "Sync your calendars to auto-join meetings"
+title: "Kalender-Integration"
+description: "Synchronisieren Sie Ihre Kalender für automatischen Meeting-Beitritt"
 icon: "calendar"
 ---
 
-## Overview
+## Übersicht
 
-Connecting your calendar is the most powerful way to use Eagle Noter. Once connected, all your upcoming meetings with Google Meet or Microsoft Teams links will appear in your dashboard, ready for the bot to join with a single click.
+Die Verbindung Ihres Kalenders ist der leistungsstärkste Weg, Eagle Noter zu nutzen. Sobald verbunden, erscheinen alle Ihre bevorstehenden Meetings mit Google Meet oder Microsoft Teams Links in Ihrem Dashboard, bereit für den Bot-Beitritt mit einem einzigen Klick.
 
-## Supported Calendars
+## Unterstützte Kalender
 
-Eagle Noter supports both major calendar providers:
+Eagle Noter unterstützt beide großen Kalender-Anbieter:
 
-- **Google Calendar** (Gmail, Google Workspace accounts)
-- **Microsoft Calendar** (Outlook, Microsoft 365, Exchange)
+- **Google Kalender** (Gmail, Google Workspace Konten)
+- **Microsoft Kalender** (Outlook, Microsoft 365, Exchange)
 
-## How to Connect Your Calendar
+## So verbinden Sie Ihren Kalender
 
 <Steps>
-  <Step title="Go to Calendars">
-    Navigate to the **Calendars** tab in your workspace dashboard.
+  <Step title="Gehen Sie zu Kalender">
+    Navigieren Sie zum Tab **Kalender** in Ihrem Arbeitsbereichs-Dashboard.
   </Step>
-  <Step title="Choose Your Calendar Provider">
-    You'll see options for:
-    - **Google Calendar** - Click to connect your Google account
-    - **Microsoft Calendar** - Click to connect your Outlook/Microsoft 365 account
+  <Step title="Wählen Sie Ihren Kalender-Anbieter">
+    Sie sehen Optionen für: - **Google Kalender** - Klicken Sie zum Verbinden
+    Ihres Google-Kontos - **Microsoft Kalender** - Klicken Sie zum Verbinden
+    Ihres Outlook/Microsoft 365 Kontos
   </Step>
-  <Step title="Authorize Access">
-    Sign in to your account and grant Eagle Noter permission to read your calendar events.
+  <Step title="Zugriff autorisieren">
+    Melden Sie sich bei Ihrem Konto an und erteilen Sie Eagle Noter die
+    Berechtigung, Ihre Kalenderereignisse zu lesen.
   </Step>
-  <Step title="Connect Multiple Accounts">
-    You can connect multiple accounts from each provider using the **+ Connect Another Account** button.
+  <Step title="Mehrere Konten verbinden">
+    Sie können mehrere Konten von jedem Anbieter über die Schaltfläche **+
+    Weiteres Konto verbinden** verbinden.
   </Step>
-  <Step title="View Your Meetings">
-    Once connected, your upcoming meetings will automatically appear in the Calendars tab.
+  <Step title="Meetings ansehen">
+    Sobald verbunden, erscheinen Ihre bevorstehenden Meetings automatisch im
+    Kalender-Tab.
   </Step>
 </Steps>
 
-## What We Access
+## Worauf wir zugreifen
 
-For your privacy, Eagle Noter only reads:
-- **Event time** - When the meeting starts and ends
-- **Event title** - The name of the meeting
-- **Meeting link** - Google Meet or Teams URLs in the event
+Für Ihre Privatsphäre liest Eagle Noter nur:
+
+- **Ereigniszeit** - Wann das Meeting beginnt und endet
+- **Ereignistitel** - Den Namen des Meetings
+- **Meeting-Link** - Google Meet oder Teams URLs im Ereignis
 
 <Warning>
-We do not read or store the content of your private appointments, attendee lists, or any other sensitive calendar data.
+  Wir lesen oder speichern nicht den Inhalt Ihrer privaten Termine,
+  Teilnehmerlisten oder andere sensible Kalenderdaten.
 </Warning>
 
-## Joining Calendar Meetings
+## Kalender-Meetings beitreten
 
-Once your calendar is connected:
+Sobald Ihr Kalender verbunden ist:
 
-1. Go to the **Calendars** tab in your dashboard
-2. Find your upcoming meeting in the list
-3. Click the **Invite Bot** button next to the event
-4. The bot will be scheduled to join that specific meeting
+1. Gehen Sie zum Tab **Kalender** in Ihrem Dashboard
+2. Finden Sie Ihr bevorstehendes Meeting in der Liste
+3. Klicken Sie auf die Schaltfläche **Bot einladen** neben dem Ereignis
+4. Der Bot wird geplant, diesem Meeting beizutreten
 
 <Tip>
-The bot joins approximately 1 minute before the scheduled start time to ensure it doesn't miss any content.
+  Der Bot tritt etwa 1 Minute vor der geplanten Startzeit bei, um
+  sicherzustellen, dass er keinen Inhalt verpasst.
 </Tip>
 
-## Meeting Detection
+## Meeting-Erkennung
 
-Eagle Noter automatically detects meeting links in your calendar events:
+Eagle Noter erkennt automatisch Meeting-Links in Ihren Kalenderereignissen:
 
-| Platform | Detection |
-|----------|-----------|
-| Google Meet | ✅ Automatically detected |
-| Microsoft Teams | ✅ Automatically detected |
+| Plattform       | Erkennung              |
+| --------------- | ---------------------- |
+| Google Meet     | ✅ Automatisch erkannt |
+| Microsoft Teams | ✅ Automatisch erkannt |
 
-Events without a recognized meeting link will not show the "Invite Bot" option.
+Ereignisse ohne erkannten Meeting-Link zeigen keine "Bot einladen" Option.
 
-## Auto-Join Settings
+## Auto-Beitritt Einstellungen
 
-You can configure automatic bot joining behavior in your workspace **Options**:
+Sie können das automatische Bot-Beitrittsverhalten in Ihren Arbeitsbereichs-**Optionen** konfigurieren:
 
-- **Default behavior**: Manual invite required for each meeting
-- **Bot display name**: Customize how the bot appears in meetings
+- **Standardverhalten**: Manuelle Einladung für jedes Meeting erforderlich
+- **Bot-Anzeigename**: Passen Sie an, wie der Bot in Meetings angezeigt wird
 
-## Disconnecting Your Calendar
+## Kalender trennen
 
-To disconnect a calendar:
+So trennen Sie einen Kalender:
 
-1. Go to the **Calendars** tab in your workspace
-2. Find the calendar you want to disconnect
-3. Click the **Disconnect** button next to it
+1. Gehen Sie zum Tab **Kalender** in Ihrem Arbeitsbereich
+2. Finden Sie den Kalender, den Sie trennen möchten
+3. Klicken Sie auf die Schaltfläche **Trennen** daneben
 
 <Note>
-Disconnecting a calendar will remove it from your dashboard. You can reconnect at any time.
+  Das Trennen eines Kalenders entfernt ihn aus Ihrem Dashboard. Sie können ihn
+  jederzeit wieder verbinden.
 </Note>
 
-## Troubleshooting
+## Problembehandlung
 
 <AccordionGroup>
-  <Accordion title="My meetings aren't showing up">
-    Make sure your calendar is properly connected. Try disconnecting and reconnecting your Google account. Also ensure your meetings have a valid Google Meet or Teams link.
+  <Accordion title="Meine Meetings werden nicht angezeigt">
+    Stellen Sie sicher, dass Ihr Kalender richtig verbunden ist. Versuchen Sie,
+    Ihr Google-Konto zu trennen und wieder zu verbinden. Stellen Sie auch
+    sicher, dass Ihre Meetings einen gültigen Google Meet oder Teams Link haben.
   </Accordion>
-  <Accordion title="The bot didn't join my meeting">
-    Check that the meeting link is valid and accessible. For Google Meet, ensure the meeting has started. For Teams, make sure the organizer has enabled guest access.
+  <Accordion title="Der Bot ist meinem Meeting nicht beigetreten">
+    Überprüfen Sie, dass der Meeting-Link gültig und zugänglich ist. Für Google
+    Meet stellen Sie sicher, dass das Meeting begonnen hat. Für Teams stellen
+    Sie sicher, dass der Organisator Gastzugriff aktiviert hat.
   </Accordion>
-  <Accordion title="I see duplicate meetings">
-    This can happen if you have multiple calendars. Eagle Noter pulls from your primary calendar by default.
+  <Accordion title="Ich sehe doppelte Meetings">
+    Dies kann passieren, wenn Sie mehrere Kalender haben. Eagle Noter zieht
+    standardmäßig von Ihrem primären Kalender.
   </Accordion>
 </AccordionGroup>
 
-## Related Features
+## Verwandte Funktionen
 
 <CardGroup cols={2}>
-  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
-    Join any meeting instantly without calendar integration.
+  <Card title="Sofort-Beitritt" icon="bolt" href="/features/instant-join">
+    Treten Sie jedem Meeting sofort ohne Kalender-Integration bei.
   </Card>
-  <Card title="Meeting History" icon="clock-rotate-left" href="/features/meeting-history">
-    View all your past meetings and their recordings.
+  <Card
+    title="Meeting-Verlauf"
+    icon="clock-rotate-left"
+    href="/features/meeting-history"
+  >
+    Sehen Sie alle vergangenen Meetings und ihre Aufnahmen.
   </Card>
 </CardGroup>

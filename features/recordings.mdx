@@ -1,125 +1,144 @@
 ---
-title: "Recordings"
-description: "Upload, manage, and transcribe your meeting recordings"
+title: "Aufnahmen"
+description: "Laden Sie Meeting-Aufnahmen hoch, verwalten und transkribieren Sie sie"
 icon: "record-vinyl"
 ---
 
-## Overview
+## Übersicht
 
-The **Recordings** section in Eagle Noter allows you to upload your own audio and video files for transcription and AI analysis. Whether you have a recording from an external source or want to process a meeting that wasn't captured by our bot, you can upload it here.
+Der Bereich **Aufnahmen** in Eagle Noter ermöglicht es Ihnen, eigene Audio- und Videodateien zur Transkription und KI-Analyse hochzuladen. Egal ob Sie eine Aufnahme aus einer externen Quelle haben oder ein Meeting verarbeiten möchten, das nicht von unserem Bot erfasst wurde, können Sie es hier hochladen.
 
-## Uploading Recordings
+## Aufnahmen hochladen
 
-### Supported Formats
+### Unterstützte Formate
 
-Eagle Noter supports the following audio and video formats:
+Eagle Noter unterstützt folgende Audio- und Videoformate:
 
 **Audio:** MP3, M4A, WAV, OGG, FLAC, AAC, OPUS  
 **Video:** MP4, WEBM
 
-**Maximum file size:** 500 MB per upload
+**Maximale Dateigröße:** 500 MB pro Upload
 
-### How to Upload
+### So laden Sie hoch
 
 <Steps>
-  <Step title="Go to Recordings">
-    Navigate to the **Recordings** tab in your workspace dashboard.
+  <Step title="Gehen Sie zu Aufnahmen">
+    Navigieren Sie zum Tab **Aufnahmen** in Ihrem Arbeitsbereichs-Dashboard.
   </Step>
-  <Step title="Click Upload">
-    Click the **Upload Recording** button in the top right corner.
+  <Step title="Klicken Sie auf Hochladen">
+    Klicken Sie auf die Schaltfläche **Aufnahme hochladen** in der oberen
+    rechten Ecke.
   </Step>
-  <Step title="Choose Upload Method">
-    You can either:
-    - **Upload a file** directly from your computer
-    - **Paste a URL** to a publicly accessible audio/video file
+  <Step title="Wählen Sie Upload-Methode">
+    Sie können entweder: - **Eine Datei hochladen** direkt von Ihrem Computer -
+    **Eine URL einfügen** zu einer öffentlich zugänglichen Audio-/Videodatei
   </Step>
-  <Step title="Add Details">
-    - **Title**: Give your recording a descriptive name
-    - **Description** (optional): Add notes about the recording
-    - **Language**: Select the language spoken in the recording
+  <Step title="Details hinzufügen">
+    - **Titel**: Geben Sie Ihrer Aufnahme einen beschreibenden Namen -
+    **Beschreibung** (optional): Fügen Sie Notizen zur Aufnahme hinzu -
+    **Sprache**: Wählen Sie die in der Aufnahme gesprochene Sprache
   </Step>
-  <Step title="Process">
-    Click **Upload** and wait for processing. You'll see real-time progress as your file is uploaded and transcribed.
+  <Step title="Verarbeiten">
+    Klicken Sie auf **Hochladen** und warten Sie auf die Verarbeitung. Sie sehen
+    den Echtzeit-Fortschritt, während Ihre Datei hochgeladen und transkribiert
+    wird.
   </Step>
 </Steps>
 
-### Upload from URL
+### Upload von URL
 
-Have a recording hosted online? Simply paste the direct URL to the audio or video file, and Eagle Noter will download and process it automatically.
+Haben Sie eine online gehostete Aufnahme? Fügen Sie einfach die direkte URL zur Audio- oder Videodatei ein, und Eagle Noter lädt sie automatisch herunter und verarbeitet sie.
 
 <Note>
-The URL must be a direct link to the media file (ending in .mp3, .mp4, etc.) or a publicly accessible storage link.
+  Die URL muss ein direkter Link zur Mediendatei sein (endend auf .mp3, .mp4,
+  etc.) oder ein öffentlich zugänglicher Speicherlink.
 </Note>
 
-## Viewing Recordings
+## Aufnahmen ansehen
 
-Once processed, your recordings appear in the Recordings list. Click on any recording to view:
+Sobald verarbeitet, erscheinen Ihre Aufnahmen in der Aufnahmen-Liste. Klicken Sie auf eine Aufnahme, um zu sehen:
 
-- **Audio Player**: Play back the original recording directly in your browser
-- **Full Transcript**: Read the complete transcription with timestamps
-- **AI Summary**: Key points, decisions, and action items extracted by AI
-- **Export Options**: Download transcripts as subtitles (SRT/VTT) or text
+- **Audio-Player**: Spielen Sie die Originalaufnahme direkt in Ihrem Browser ab
+- **Vollständiges Transkript**: Lesen Sie die vollständige Transkription mit Zeitstempeln
+- **KI-Zusammenfassung**: Von der KI extrahierte Kernpunkte, Entscheidungen und Aufgaben
+- **Export-Optionen**: Laden Sie Transkripte als Untertitel (SRT/VTT) oder Text herunter
 
-## Managing Recordings
+## Aufnahmen verwalten
 
-### Playback
+### Wiedergabe
 
-Each recording includes a built-in audio player that lets you:
-- Play, pause, and seek through the recording
-- Adjust playback speed
-- Jump to specific timestamps mentioned in the transcript
+Jede Aufnahme enthält einen eingebauten Audio-Player, mit dem Sie:
 
-### Bulk Selection
+- Abspielen, pausieren und durch die Aufnahme suchen können
+- Die Wiedergabegeschwindigkeit anpassen
+- Zu im Transkript erwähnten spezifischen Zeitstempeln springen
 
-You can select multiple recordings using the checkboxes to perform bulk actions like deletion.
+### Massenauswahl
 
-### Deleting Recordings
+Sie können mehrere Aufnahmen mit den Kontrollkästchen auswählen, um Massenaktionen wie Löschen durchzuführen.
 
-To delete a recording:
-1. Select one or more recordings using the checkboxes
-2. Click the **Delete** button
-3. Confirm the deletion
+### Aufnahmen löschen
+
+So löschen Sie eine Aufnahme:
+
+1. Wählen Sie eine oder mehrere Aufnahmen mit den Kontrollkästchen aus
+2. Klicken Sie auf die Schaltfläche **Löschen**
+3. Bestätigen Sie die Löschung
 
 <Warning>
-Deleting a recording permanently removes the audio file, transcript, and AI summary. This action cannot be undone.
+  Das Löschen einer Aufnahme entfernt dauerhaft die Audiodatei, das Transkript
+  und die KI-Zusammenfassung. Diese Aktion kann nicht rückgängig gemacht werden.
 </Warning>
 
-## Language Support
+## Sprachunterstützung
 
-When uploading, select the transcription language:
+Wählen Sie beim Hochladen die Transkriptionssprache:
 
-| Language | Code | Description |
-|----------|------|-------------|
-| Auto (Multilingual) | `auto` | Automatically detects the language spoken |
-| English | `en` | Best for English recordings |
-| German/Swiss German | `de` | Optimized for German and Swiss German dialects |
-| French | `fr` | For French language recordings |
+| Sprache                  | Code   | Beschreibung                                         |
+| ------------------------ | ------ | ---------------------------------------------------- |
+| Auto (Mehrsprachig)      | `auto` | Erkennt automatisch die gesprochene Sprache          |
+| Englisch                 | `en`   | Am besten für englische Aufnahmen                    |
+| Deutsch/Schweizerdeutsch | `de`   | Optimiert für Deutsch und Schweizerdeutsche Dialekte |
+| Französisch              | `fr`   | Für französischsprachige Aufnahmen                   |
 
 <Tip>
-Use **Auto (Multilingual)** if your recording contains multiple languages or you're unsure of the primary language.
+  Verwenden Sie **Auto (Mehrsprachig)**, wenn Ihre Aufnahme mehrere Sprachen
+  enthält oder Sie sich über die Hauptsprache unsicher sind.
 </Tip>
 
-## Tips for Best Results
+## Tipps für beste Ergebnisse
 
 <AccordionGroup>
-  <Accordion title="Audio Quality">
-    Clear audio with minimal background noise produces the best transcriptions. If possible, use recordings from dedicated microphones rather than laptop speakers.
+  <Accordion title="Audioqualität">
+    Klares Audio mit minimalen Hintergrundgeräuschen produziert die besten
+    Transkriptionen. Verwenden Sie wenn möglich Aufnahmen von dedizierten
+    Mikrofonen statt Laptop-Lautsprechern.
   </Accordion>
-  <Accordion title="Speaker Clarity">
-    Ensure speakers don't talk over each other. Clear turn-taking helps with accurate transcription and speaker identification.
+  <Accordion title="Sprecherklarheit">
+    Stellen Sie sicher, dass Sprecher nicht übereinander sprechen. Klares
+    Abwechseln hilft bei genauer Transkription und Sprechererkennung.
   </Accordion>
-  <Accordion title="File Size">
-    For very long recordings (over 2 hours), consider splitting them into smaller segments for faster processing.
+  <Accordion title="Dateigröße">
+    Bei sehr langen Aufnahmen (über 2 Stunden) erwägen Sie, sie in kleinere
+    Segmente aufzuteilen für schnellere Verarbeitung.
   </Accordion>
 </AccordionGroup>
 
-## Related Features
+## Verwandte Funktionen
 
 <CardGroup cols={2}>
-  <Card title="AI Summaries" icon="sparkles" href="/features/ai-summaries">
-    Automatically generate key points and action items from your recordings.
+  <Card
+    title="KI-Zusammenfassungen"
+    icon="sparkles"
+    href="/features/ai-summaries"
+  >
+    Generieren Sie automatisch Kernpunkte und Aufgaben aus Ihren Aufnahmen.
   </Card>
-  <Card title="Transcription" icon="closed-captioning" href="/features/real-time-transcription">
-    Learn more about our transcription technology and export options.
+  <Card
+    title="Transkription"
+    icon="closed-captioning"
+    href="/features/real-time-transcription"
+  >
+    Erfahren Sie mehr über unsere Transkriptionstechnologie und Export-Optionen.
   </Card>
 </CardGroup>

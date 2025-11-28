@@ -1,128 +1,144 @@
 ---
-title: "Workspace & Options"
-description: "Configure your workspace settings and preferences"
+title: "Arbeitsbereich & Optionen"
+description: "Konfigurieren Sie Ihre Arbeitsbereichseinstellungen und Präferenzen"
 icon: "gear"
 ---
 
-## Overview
+## Übersicht
 
-The **Options** page lets you configure how Eagle Noter works for your workspace. Access it by clicking **Options** in the sidebar.
+Die Seite **Optionen** ermöglicht es Ihnen zu konfigurieren, wie Eagle Noter für Ihren Arbeitsbereich funktioniert. Greifen Sie darauf zu, indem Sie auf **Optionen** in der Seitenleiste klicken.
 
-## Agent Timeout
+## Agent-Timeout
 
-Control when the bot automatically leaves idle meetings.
+Steuern Sie, wann der Bot inaktive Meetings automatisch verlässt.
 
-| Setting | Description | Default |
-|---------|-------------|--------|
-| **No one joined timeout** | How many minutes the bot waits if nobody joins the meeting | 10 minutes |
-| **Everyone left timeout** | How many minutes the bot waits after everyone leaves before it also leaves | 5 minutes |
-
-<Tip>
-Enable **Leave automatically when idle** to have the bot exit meetings when no one is present, saving resources.
-</Tip>
-
-## Transcriber
-
-Configure the default transcription language used by the bot during meetings.
-
-### Transcription Language Options
-
-| Language | Description |
-|----------|-------------|
-| **Auto (Multilingual)** | Automatically detects the spoken language |
-| **English** | Optimized for English |
-| **German/Swiss German** | Optimized for German and Swiss German dialects |
-| **French** | Optimized for French |
-
-<Note>
-Choose the language that best matches what will be spoken in your meetings. Use "Auto" if you're unsure or if meetings include multiple languages.
-</Note>
-
-## AI Summary Language
-
-Choose the language for AI-generated meeting summaries and emails.
-
-### Summary Language Options
-
-| Language | Description |
-|----------|-------------|
-| **Auto** | Automatically detected from the meeting transcript |
-| **English** | Summaries always in English |
-| **German** | Summaries always in German |
-| **French** | Summaries always in French |
-| **Spanish** | Summaries always in Spanish |
-| **Italian** | Summaries always in Italian |
-| **Portuguese** | Summaries always in Portuguese |
-
-<Note>
-When set to "Auto", the summary language will be automatically detected from the meeting transcript. Otherwise, summaries will always be generated in your selected language.
-</Note>
-
-## Email Notifications
-
-Configure CC email addresses for meeting summaries.
-
-### How It Works
-
-After each meeting, Eagle Noter sends an email summary. You can add additional email addresses to receive copies:
-
-1. Go to **Options**
-2. Find the **Email Notifications** section
-3. Click **+ Add Email Address**
-4. Enter the email address
-5. Click **Save**
-
-All email addresses you add will be CC'd on all meeting summary emails.
+| Einstellung                      | Beschreibung                                                                     | Standard   |
+| -------------------------------- | -------------------------------------------------------------------------------- | ---------- |
+| **Niemand-beigetreten-Timeout**  | Wie viele Minuten der Bot wartet, wenn niemand dem Meeting beitritt              | 10 Minuten |
+| **Alle-haben-verlassen-Timeout** | Wie viele Minuten der Bot wartet, nachdem alle gegangen sind, bevor er auch geht | 5 Minuten  |
 
 <Tip>
-Add your team members' email addresses so everyone gets the meeting summary automatically.
+  Aktivieren Sie **Automatisch verlassen, wenn inaktiv**, damit der Bot Meetings
+  verlässt, wenn niemand anwesend ist, und Ressourcen spart.
 </Tip>
 
-## Saving Changes
+## Transkriber
 
-After making any changes to your options, click the **Save** button in the top right corner to apply them.
+Konfigurieren Sie die Standard-Transkriptionssprache, die der Bot während Meetings verwendet.
+
+### Transkriptionssprach-Optionen
+
+| Sprache                      | Beschreibung                                         |
+| ---------------------------- | ---------------------------------------------------- |
+| **Auto (Mehrsprachig)**      | Erkennt automatisch die gesprochene Sprache          |
+| **Englisch**                 | Optimiert für Englisch                               |
+| **Deutsch/Schweizerdeutsch** | Optimiert für Deutsch und Schweizerdeutsche Dialekte |
+| **Französisch**              | Optimiert für Französisch                            |
+
+<Note>
+  Wählen Sie die Sprache, die am besten zu dem passt, was in Ihren Meetings
+  gesprochen wird. Verwenden Sie "Auto", wenn Sie unsicher sind oder wenn
+  Meetings mehrere Sprachen beinhalten.
+</Note>
+
+## KI-Zusammenfassungssprache
+
+Wählen Sie die Sprache für KI-generierte Meeting-Zusammenfassungen und E-Mails.
+
+### Zusammenfassungssprach-Optionen
+
+| Sprache           | Beschreibung                                   |
+| ----------------- | ---------------------------------------------- |
+| **Auto**          | Automatisch aus dem Meeting-Transkript erkannt |
+| **Englisch**      | Zusammenfassungen immer auf Englisch           |
+| **Deutsch**       | Zusammenfassungen immer auf Deutsch            |
+| **Französisch**   | Zusammenfassungen immer auf Französisch        |
+| **Spanisch**      | Zusammenfassungen immer auf Spanisch           |
+| **Italienisch**   | Zusammenfassungen immer auf Italienisch        |
+| **Portugiesisch** | Zusammenfassungen immer auf Portugiesisch      |
+
+<Note>
+  Wenn auf "Auto" eingestellt, wird die Zusammenfassungssprache automatisch aus
+  dem Meeting-Transkript erkannt. Andernfalls werden Zusammenfassungen immer in
+  Ihrer ausgewählten Sprache generiert.
+</Note>
+
+## E-Mail-Benachrichtigungen
+
+Konfigurieren Sie CC-E-Mail-Adressen für Meeting-Zusammenfassungen.
+
+### Wie es funktioniert
+
+Nach jedem Meeting sendet Eagle Noter eine E-Mail-Zusammenfassung. Sie können zusätzliche E-Mail-Adressen hinzufügen, um Kopien zu erhalten:
+
+1. Gehen Sie zu **Optionen**
+2. Finden Sie den Abschnitt **E-Mail-Benachrichtigungen**
+3. Klicken Sie auf **+ E-Mail-Adresse hinzufügen**
+4. Geben Sie die E-Mail-Adresse ein
+5. Klicken Sie auf **Speichern**
+
+Alle E-Mail-Adressen, die Sie hinzufügen, werden bei allen Meeting-Zusammenfassungs-E-Mails in CC gesetzt.
+
+<Tip>
+  Fügen Sie die E-Mail-Adressen Ihrer Teammitglieder hinzu, damit jeder
+  automatisch die Meeting-Zusammenfassung erhält.
+</Tip>
+
+## Änderungen speichern
+
+Nachdem Sie Änderungen an Ihren Optionen vorgenommen haben, klicken Sie auf die Schaltfläche **Speichern** in der oberen rechten Ecke, um sie anzuwenden.
 
 ---
 
-## Workspaces
+## Arbeitsbereiche
 
-Workspaces help you organize your meetings and collaborate with your team.
+Arbeitsbereiche helfen Ihnen, Ihre Meetings zu organisieren und mit Ihrem Team zusammenzuarbeiten.
 
-### Creating a Workspace
+### Einen Arbeitsbereich erstellen
 
-When you first sign up, you'll be prompted to create a workspace. You can also create additional workspaces later:
+Wenn Sie sich zum ersten Mal anmelden, werden Sie aufgefordert, einen Arbeitsbereich zu erstellen. Sie können später auch zusätzliche Arbeitsbereiche erstellen:
 
-1. Click on your workspace name in the sidebar
-2. Select **Create New Workspace**
-3. Give it a name and customize settings
+1. Klicken Sie auf Ihren Arbeitsbereichsnamen in der Seitenleiste
+2. Wählen Sie **Neuen Arbeitsbereich erstellen**
+3. Geben Sie ihm einen Namen und passen Sie Einstellungen an
 
-### Switching Workspaces
+### Arbeitsbereiche wechseln
 
-If you belong to multiple workspaces:
+Wenn Sie zu mehreren Arbeitsbereichen gehören:
 
-1. Click your workspace name in the sidebar
-2. Select the workspace you want to switch to
-3. Your dashboard will update to show that workspace's content
+1. Klicken Sie auf Ihren Arbeitsbereichsnamen in der Seitenleiste
+2. Wählen Sie den Arbeitsbereich, zu dem Sie wechseln möchten
+3. Ihr Dashboard wird aktualisiert, um den Inhalt dieses Arbeitsbereichs anzuzeigen
 
-### Shared Resources
+### Geteilte Ressourcen
 
-Within a workspace:
-- All meetings are visible to workspace members
-- Transcripts and summaries are shared
-- Search works across all workspace content
-- Email notifications can include the whole team
+Innerhalb eines Arbeitsbereichs:
+
+- Alle Meetings sind für Arbeitsbereichs-Mitglieder sichtbar
+- Transkripte und Zusammenfassungen werden geteilt
+- Die Suche funktioniert über alle Arbeitsbereichs-Inhalte
+- E-Mail-Benachrichtigungen können das gesamte Team einschließen
 
 <Tip>
-Create separate workspaces for different clients or projects to keep meeting content organized.
+  Erstellen Sie separate Arbeitsbereiche für verschiedene Kunden oder Projekte,
+  um Meeting-Inhalte organisiert zu halten.
 </Tip>
 
-## Related Features
+## Verwandte Funktionen
 
 <CardGroup cols={2}>
-  <Card title="Calendar Integration" icon="calendar" href="/features/calendar-sync">
-    Connect your Google or Microsoft calendar
+  <Card
+    title="Kalender-Integration"
+    icon="calendar"
+    href="/features/calendar-sync"
+  >
+    Verbinden Sie Ihren Google oder Microsoft Kalender
   </Card>
-  <Card title="AI Summaries" icon="sparkles" href="/features/ai-summaries">
-    Learn more about AI-generated summaries
+  <Card
+    title="KI-Zusammenfassungen"
+    icon="sparkles"
+    href="/features/ai-summaries"
+  >
+    Erfahren Sie mehr über KI-generierte Zusammenfassungen
   </Card>
 </CardGroup>

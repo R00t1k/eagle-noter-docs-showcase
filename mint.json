@@ -26,18 +26,18 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Loslegen",
     "url": "https://eaglenoter.ai"
   },
   "tabs": [
     {
-      "name": "Help Center",
+      "name": "Hilfe-Center",
       "url": "/"
     }
   ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Erste Schritte",
       "pages": [
         "introduction",
         "getting-started/quickstart",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "group": "Core Features",
+      "group": "Hauptfunktionen",
       "pages": [
         "features/instant-join",
         "features/calendar-sync",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "group": "Meeting Bots",
+      "group": "Meeting-Bots",
       "pages": [
         "features/meeting-bots",
         "integrations/google-meet",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "group": "Settings",
+      "group": "Einstellungen",
       "pages": [
         "features/workspace-management"
       ]

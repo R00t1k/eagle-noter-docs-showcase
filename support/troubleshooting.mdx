@@ -1,123 +1,122 @@
 ---
-title: "Troubleshooting"
-description: "Common issues and how to fix them"
+title: "Problembehandlung"
+description: "Häufige Probleme und wie man sie behebt"
 icon: "wrench"
 ---
 
-## Bot Not Joining My Meeting
+## Bot tritt meinem Meeting nicht bei
 
 <AccordionGroup>
-  <Accordion title="The bot isn't joining">
-    **Try these steps:**
-    - Make sure the meeting has started (at least one person must be in it)
-    - Check that the meeting link is correct and complete
-    - Verify you're using a supported platform (Google Meet or Microsoft Teams)
-    - Try using **Instant Join** to manually send the bot
+  <Accordion title="Der Bot tritt nicht bei">
+    **Versuchen Sie diese Schritte:**
+    - Stellen Sie sicher, dass das Meeting begonnen hat (mindestens eine Person muss darin sein)
+    - Überprüfen Sie, dass der Meeting-Link korrekt und vollständig ist
+    - Überprüfen Sie, dass Sie eine unterstützte Plattform verwenden (Google Meet oder Microsoft Teams)
+    - Versuchen Sie **Sofort-Beitritt**, um den Bot manuell zu senden
   </Accordion>
 
-  <Accordion title="Bot stuck in waiting room">
-    **Solution:** The meeting host needs to admit the bot.
+{" "}
+<Accordion title="Bot steckt im Warteraum fest">
+  **Lösung:** Der Meeting-Gastgeber muss den Bot zulassen. - Für **Google
+  Meet**: Suchen Sie nach der "Jemand möchte beitreten" Benachrichtigung und
+  klicken Sie auf **Zulassen** - Für **Microsoft Teams**: Überprüfen Sie die
+  Lobby und klicken Sie auf **Zulassen** neben dem Bot
+</Accordion>
+
+  <Accordion title="Bot wurde aus dem Meeting entfernt">
+    **Mögliche Ursachen:**
+    - Der Gastgeber hat möglicherweise den Bot entfernt
+    - Meeting-Sicherheitseinstellungen blockieren möglicherweise Gäste
+    - Bei Teams ist möglicherweise der Gastzugriff deaktiviert
     
-    - For **Google Meet**: Look for "Someone wants to join" notification and click **Admit**
-    - For **Microsoft Teams**: Check the lobby and click **Admit** next to the bot
-  </Accordion>
-
-  <Accordion title="Bot was removed from the meeting">
-    **Possible causes:**
-    - The host may have kicked the bot
-    - Meeting security settings may block guests
-    - For Teams, guest access may be disabled
-    
-    **Solution:** Ask the meeting host to allow the bot to join, or try rejoining with Instant Join.
+    **Lösung:** Bitten Sie den Meeting-Gastgeber, dem Bot den Beitritt zu erlauben, oder versuchen Sie erneut mit Sofort-Beitritt beizutreten.
   </Accordion>
 </AccordionGroup>
 
-## Transcription Issues
+## Transkriptionsprobleme
 
 <AccordionGroup>
-  <Accordion title="No transcription appearing">
-    **Try these steps:**
-    - Make sure people are speaking in the meeting
-    - Check that the bot has been admitted to the meeting
-    - Verify the correct language is selected in **Options**
-    - Wait a few seconds - there may be a short delay
+  <Accordion title="Keine Transkription erscheint">
+    **Versuchen Sie diese Schritte:**
+    - Stellen Sie sicher, dass im Meeting gesprochen wird
+    - Überprüfen Sie, dass der Bot dem Meeting zugelassen wurde
+    - Überprüfen Sie, dass die richtige Sprache in **Optionen** ausgewählt ist
+    - Warten Sie ein paar Sekunden - es kann eine kurze Verzögerung geben
   </Accordion>
 
-  <Accordion title="Transcription quality is poor">
-    **Tips to improve accuracy:**
-    - Use better microphones (headsets work well)
-    - Reduce background noise
-    - Speak clearly at a normal pace
-    - Avoid multiple people talking at once
-    - Make sure the correct language is set in **Options**
-  </Accordion>
+{" "}
+<Accordion title="Transkriptionsqualität ist schlecht">
+  **Tipps zur Verbesserung der Genauigkeit:** - Verwenden Sie bessere Mikrofone
+  (Headsets funktionieren gut) - Reduzieren Sie Hintergrundgeräusche - Sprechen
+  Sie deutlich in normalem Tempo - Vermeiden Sie, dass mehrere Personen
+  gleichzeitig sprechen - Stellen Sie sicher, dass die richtige Sprache in
+  **Optionen** eingestellt ist
+</Accordion>
 
-  <Accordion title="Wrong language detected">
-    **Solution:** Go to **Options** and set your transcription language manually instead of using "Auto".
+  <Accordion title="Falsche Sprache erkannt">
+    **Lösung:** Gehen Sie zu **Optionen** und legen Sie Ihre Transkriptionssprache manuell fest, anstatt "Auto" zu verwenden.
   </Accordion>
 </AccordionGroup>
 
-## Calendar Issues
+## Kalenderprobleme
 
 <AccordionGroup>
-  <Accordion title="Meetings not showing up">
-    **Try these steps:**
-    - Make sure your calendar is connected in the **Calendars** tab
-    - Check that your meetings have a Google Meet or Teams link
-    - Try disconnecting and reconnecting your calendar
+  <Accordion title="Meetings werden nicht angezeigt">
+    **Versuchen Sie diese Schritte:**
+    - Stellen Sie sicher, dass Ihr Kalender im Tab **Kalender** verbunden ist
+    - Überprüfen Sie, dass Ihre Meetings einen Google Meet oder Teams Link haben
+    - Versuchen Sie, Ihren Kalender zu trennen und erneut zu verbinden
   </Accordion>
 
-  <Accordion title="Can't connect my calendar">
-    **Try these steps:**
-    - Make sure you're signing in with the correct account
-    - Allow all requested permissions when connecting
-    - Try using a different browser
-    - Clear your browser cache and try again
+  <Accordion title="Kann meinen Kalender nicht verbinden">
+    **Versuchen Sie diese Schritte:**
+    - Stellen Sie sicher, dass Sie sich mit dem richtigen Konto anmelden
+    - Erlauben Sie alle angeforderten Berechtigungen beim Verbinden
+    - Versuchen Sie einen anderen Browser
+    - Löschen Sie Ihren Browser-Cache und versuchen Sie es erneut
   </Accordion>
 </AccordionGroup>
 
-## Account Issues
+## Kontoprobleme
 
 <AccordionGroup>
-  <Accordion title="Can't sign in">
-    **Try these steps:**
-    - Make sure you're using the same account you signed up with (Google or Microsoft)
-    - Clear your browser cache and cookies
-    - Try using a different browser
-    - Check that you have a stable internet connection
+  <Accordion title="Kann mich nicht anmelden">
+    **Versuchen Sie diese Schritte:**
+    - Stellen Sie sicher, dass Sie dasselbe Konto verwenden, mit dem Sie sich registriert haben (Google oder Microsoft)
+    - Löschen Sie Ihren Browser-Cache und Cookies
+    - Versuchen Sie einen anderen Browser
+    - Überprüfen Sie, dass Sie eine stabile Internetverbindung haben
   </Accordion>
 
-  <Accordion title="Access denied error">
-    **Solution:** When signing in, make sure you approve all the permission requests. Eagle Noter needs access to your calendar to show your meetings.
+  <Accordion title="Zugriff verweigert Fehler">
+    **Lösung:** Stellen Sie beim Anmelden sicher, dass Sie alle Berechtigungsanfragen genehmigen. Eagle Noter benötigt Zugriff auf Ihren Kalender, um Ihre Meetings anzuzeigen.
   </Accordion>
 </AccordionGroup>
 
-## Upload Issues
+## Upload-Probleme
 
 <AccordionGroup>
-  <Accordion title="File upload failing">
-    **Check these things:**
-    - File must be under 500 MB
-    - Use supported formats: MP3, M4A, WAV, MP4, MOV, WEBM, etc.
-    - Make sure you have a stable internet connection
-    - Try a smaller file to test
+  <Accordion title="Datei-Upload schlägt fehl">
+    **Überprüfen Sie diese Dinge:**
+    - Datei muss unter 500 MB sein
+    - Verwenden Sie unterstützte Formate: MP3, M4A, WAV, MP4, MOV, WEBM, etc.
+    - Stellen Sie sicher, dass Sie eine stabile Internetverbindung haben
+    - Versuchen Sie eine kleinere Datei zum Testen
   </Accordion>
 
-  <Accordion title="Transcription taking too long">
-    **Note:** Large files (over 1 hour) may take several minutes to process. You'll see a progress indicator during upload and processing.
+  <Accordion title="Transkription dauert zu lange">
+    **Hinweis:** Große Dateien (über 1 Stunde) können mehrere Minuten zur Verarbeitung benötigen. Sie sehen einen Fortschrittsindikator während des Uploads und der Verarbeitung.
   </Accordion>
 </AccordionGroup>
 
-## Still Need Help?
+## Benötigen Sie noch Hilfe?
 
-If you're still having issues, contact our support team:
+Wenn Sie immer noch Probleme haben, kontaktieren Sie unser Support-Team:
 
-📧 **Email:** support@eaglenoter.ai
+📧 **E-Mail:** support@eaglenoter.ai
 
 <Tip>
-When contacting support, include:
-- What you were trying to do
-- What happened instead
-- The meeting platform you were using (Google Meet or Teams)
+  Wenn Sie den Support kontaktieren, geben Sie an: - Was Sie versucht haben zu
+  tun - Was stattdessen passiert ist - Die Meeting-Plattform, die Sie verwendet
+  haben (Google Meet oder Teams)
 </Tip>
-

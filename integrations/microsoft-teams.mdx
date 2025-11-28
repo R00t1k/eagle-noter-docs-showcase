@@ -1,129 +1,138 @@
 ---
 title: "Microsoft Teams Integration"
-description: "AI-powered transcription and summaries for Microsoft Teams meetings"
+description: "KI-gestützte Transkription und Zusammenfassungen für Microsoft Teams Meetings"
 icon: "microsoft"
 ---
 
-## Overview
+## Übersicht
 
-Eagle Noter supports Microsoft Teams meetings, including both personal and organizational Teams calls. Our bot joins as a guest participant to record, transcribe, and summarize your meetings.
+Eagle Noter unterstützt Microsoft Teams Meetings, einschließlich persönlicher und organisatorischer Teams-Anrufe. Unser Bot tritt als Gast-Teilnehmer bei, um Ihre Meetings aufzunehmen, zu transkribieren und zusammenzufassen.
 
-## How to Join a Teams Meeting
+## So treten Sie einem Teams Meeting bei
 
-### Instant Join
+### Sofort-Beitritt
 
-Join any Teams meeting instantly:
+Treten Sie jedem Teams Meeting sofort bei:
 
 <Steps>
-  <Step title="Copy the Meeting Link">
-    Get the Teams meeting URL from your calendar invite or Teams app
+  <Step title="Meeting-Link kopieren">
+    Holen Sie sich die Teams Meeting URL aus Ihrer Kalendereinladung oder Teams
+    App
   </Step>
-  <Step title="Go to Instant Join">
-    Open the **Instant Join** tab in your Eagle Noter dashboard
+  <Step title="Gehen Sie zu Sofort-Beitritt">
+    Öffnen Sie den Tab **Sofort-Beitritt** in Ihrem Eagle Noter Dashboard
   </Step>
-  <Step title="Paste and Join">
-    Paste the URL and click **Join Meeting**
+  <Step title="Einfügen und Beitreten">
+    Fügen Sie die URL ein und klicken Sie auf **Meeting beitreten**
   </Step>
-  <Step title="Admit the Bot">
-    The meeting host needs to admit the bot from the lobby
+  <Step title="Bot zulassen">
+    Der Meeting-Gastgeber muss den Bot aus der Lobby zulassen
   </Step>
 </Steps>
 
-### From Your Calendar
+### Von Ihrem Kalender
 
-If your Google Calendar contains Teams meeting links:
+Wenn Ihr Google Kalender Teams Meeting Links enthält:
 
-1. Go to the **Calendars** tab
-2. Find your meeting with a Teams link
-3. Click **Invite Bot**
-4. The bot will join when the meeting starts
+1. Gehen Sie zum Tab **Kalender**
+2. Finden Sie Ihr Meeting mit einem Teams Link
+3. Klicken Sie auf **Bot einladen**
+4. Der Bot tritt bei, wenn das Meeting beginnt
 
-## Admitting the Bot
+## Bot zulassen
 
 <Warning>
-For most Teams meetings, the bot joins as a guest and must be **admitted from the lobby** by the meeting organizer.
+  Bei den meisten Teams Meetings tritt der Bot als Gast bei und muss vom
+  Meeting-Organisator **aus der Lobby zugelassen** werden.
 </Warning>
 
-When the bot tries to join:
+Wenn der Bot versucht beizutreten:
 
-1. The host sees a notification that someone is waiting in the lobby
-2. The host clicks **Admit** to let the bot in
-3. The bot starts recording immediately
+1. Der Gastgeber sieht eine Benachrichtigung, dass jemand in der Lobby wartet
+2. Der Gastgeber klickt auf **Zulassen**, um den Bot hereinzulassen
+3. Der Bot beginnt sofort mit der Aufnahme
 
-## Organizational Settings
+## Organisationseinstellungen
 
-Depending on your organization's Microsoft 365 settings, additional configuration may be needed:
+Abhängig von den Microsoft 365 Einstellungen Ihrer Organisation kann zusätzliche Konfiguration erforderlich sein:
 
-| Setting | What It Means |
-|---------|---------------|
-| **Guest Access** | Must be enabled for external participants |
-| **Lobby Settings** | Controls who waits in lobby |
-| **Recording Policy** | May affect bot capabilities |
-
-<Note>
-If you're having trouble with the bot joining organizational Teams meetings, contact your IT administrator to verify guest access is enabled.
-</Note>
-
-## What Eagle Noter Captures
-
-| Feature | Support |
-|---------|--------|
-| Audio Recording | ✅ High-quality recording |
-| Real-time Transcription | ✅ Live transcription |
-| Speaker Identification | ✅ Detects who is speaking |
-| AI Summary | ✅ Generated after meeting |
-| Multiple Languages | ✅ Auto-detect or select language |
+| Einstellung             | Was es bedeutet                            |
+| ----------------------- | ------------------------------------------ |
+| **Gastzugriff**         | Muss für externe Teilnehmer aktiviert sein |
+| **Lobby-Einstellungen** | Steuert, wer in der Lobby wartet           |
+| **Aufnahme-Richtlinie** | Kann Bot-Funktionen beeinflussen           |
 
 <Note>
-The bot only processes **audio**. It does not read or capture meeting chat messages.
+  Wenn Sie Probleme haben, dass der Bot organisatorischen Teams Meetings
+  beitritt, kontaktieren Sie Ihren IT-Administrator, um zu überprüfen, ob der
+  Gastzugriff aktiviert ist.
 </Note>
 
-## Language Support
+## Was Eagle Noter erfasst
 
-Configure your transcription language in **Options**:
+| Funktion               | Unterstützung                         |
+| ---------------------- | ------------------------------------- |
+| Audioaufnahme          | ✅ Hochwertige Aufnahme               |
+| Echtzeit-Transkription | ✅ Live-Transkription                 |
+| Sprechererkennung      | ✅ Erkennt, wer spricht               |
+| KI-Zusammenfassung     | ✅ Nach Meeting generiert             |
+| Mehrere Sprachen       | ✅ Auto-Erkennung oder Sprache wählen |
 
-- **Auto (Multilingual)** - Automatically detects the language
-- **English** - Optimized for English
-- **German/Swiss German** - Optimized for German dialects  
-- **French** - Optimized for French
+<Note>
+  Der Bot verarbeitet nur **Audio**. Er liest oder erfasst keine
+  Meeting-Chat-Nachrichten.
+</Note>
+
+## Sprachunterstützung
+
+Konfigurieren Sie Ihre Transkriptionssprache in **Optionen**:
+
+- **Auto (Mehrsprachig)** - Erkennt die Sprache automatisch
+- **Englisch** - Optimiert für Englisch
+- **Deutsch/Schweizerdeutsch** - Optimiert für Deutsche Dialekte
+- **Französisch** - Optimiert für Französisch
 
 ## Best Practices
 
 <AccordionGroup>
-  <Accordion title="Admit the bot promptly">
-    Watch for the lobby notification so the bot doesn't miss any content.
+  <Accordion title="Bot schnell zulassen">
+    Achten Sie auf die Lobby-Benachrichtigung, damit der Bot keinen Inhalt
+    verpasst.
   </Accordion>
-  <Accordion title="Check organization policies">
-    If you're in a corporate environment, verify guest access is enabled for your meetings.
+  <Accordion title="Organisationsrichtlinien prüfen">
+    Wenn Sie in einer Unternehmensumgebung sind, überprüfen Sie, ob der
+    Gastzugriff für Ihre Meetings aktiviert ist.
   </Accordion>
-  <Accordion title="Use good audio">
-    Better microphone quality leads to better transcription accuracy.
+  <Accordion title="Gutes Audio verwenden">
+    Bessere Mikrofonqualität führt zu besserer Transkriptionsgenauigkeit.
   </Accordion>
 </AccordionGroup>
 
-## Troubleshooting
+## Problembehandlung
 
 <AccordionGroup>
-  <Accordion title="Bot stuck in lobby">
-    The meeting organizer needs to admit the bot. Look for the lobby notification in Teams.
+  <Accordion title="Bot steckt in der Lobby fest">
+    Der Meeting-Organisator muss den Bot zulassen. Suchen Sie nach der
+    Lobby-Benachrichtigung in Teams.
   </Accordion>
-  <Accordion title="Bot can't join at all">
-    - Verify the meeting link is correct
-    - Check that guest access is enabled for your organization
-    - Ensure the meeting has started
+  <Accordion title="Bot kann überhaupt nicht beitreten">
+    - Überprüfen Sie, dass der Meeting-Link korrekt ist - Prüfen Sie, dass der
+    Gastzugriff für Ihre Organisation aktiviert ist - Stellen Sie sicher, dass
+    das Meeting begonnen hat
   </Accordion>
-  <Accordion title="Bot was removed automatically">
-    Some organizations have policies that automatically remove guest participants. Contact your IT admin.
+  <Accordion title="Bot wurde automatisch entfernt">
+    Einige Organisationen haben Richtlinien, die Gast-Teilnehmer automatisch
+    entfernen. Kontaktieren Sie Ihren IT-Admin.
   </Accordion>
 </AccordionGroup>
 
-## Related
+## Verwandte
 
 <CardGroup cols={2}>
-  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
-    Learn more about instant meeting joining
+  <Card title="Sofort-Beitritt" icon="bolt" href="/features/instant-join">
+    Erfahren Sie mehr über sofortigen Meeting-Beitritt
   </Card>
-  <Card title="Meeting Bots" icon="robot" href="/features/meeting-bots">
-    How our meeting bots work
+  <Card title="Meeting-Bots" icon="robot" href="/features/meeting-bots">
+    Wie unsere Meeting-Bots funktionieren
   </Card>
 </CardGroup>

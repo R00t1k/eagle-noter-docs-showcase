@@ -1,183 +1,204 @@
 ---
-title: "Meeting Bots"
-description: "Automated meeting attendance with intelligent bots"
+title: "Meeting-Bots"
+description: "Automatische Meeting-Teilnahme mit intelligenten Bots"
 icon: "robot"
 ---
 
-## Overview
+## Übersicht
 
-Eagle Noter's meeting bots automatically join your Google Meet and Microsoft Teams meetings to record, transcribe, and generate AI summaries. The bot acts as a participant in your meeting, capturing everything that's said.
+Die Meeting-Bots von Eagle Noter treten Ihren Google Meet und Microsoft Teams Meetings automatisch bei, um aufzunehmen, zu transkribieren und KI-Zusammenfassungen zu generieren. Der Bot agiert als Teilnehmer in Ihrem Meeting und erfasst alles, was gesagt wird.
 
-## Key Features
+## Hauptfunktionen
 
 <CardGroup cols={2}>
-  <Card title="Auto-Join from Calendar" icon="door-open">
-    Invite the bot to meetings directly from your calendar
+  <Card title="Auto-Beitritt vom Kalender" icon="door-open">
+    Laden Sie den Bot zu Meetings direkt von Ihrem Kalender ein
   </Card>
-  <Card title="Smart Timing" icon="clock">
-    Bot joins before the meeting starts so it doesn't miss anything
+  <Card title="Intelligentes Timing" icon="clock">
+    Bot tritt vor Meeting-Beginn bei, damit er nichts verpasst
   </Card>
-  <Card title="Multi-Platform" icon="grid">
-    Works with Google Meet and Microsoft Teams
+  <Card title="Multi-Plattform" icon="grid">
+    Funktioniert mit Google Meet und Microsoft Teams
   </Card>
-  <Card title="Real-Time Processing" icon="bolt">
-    Live transcription while the meeting is happening
+  <Card title="Echtzeit-Verarbeitung" icon="bolt">
+    Live-Transkription während das Meeting stattfindet
   </Card>
 </CardGroup>
 
-## Supported Platforms
+## Unterstützte Plattformen
 
 ### Google Meet
 
-Eagle Noter fully supports Google Meet with:
-- Real-time transcription during the meeting
-- Automatic speaker identification
-- Direct calendar integration
-- High-quality audio recording
+Eagle Noter unterstützt Google Meet vollständig mit:
+
+- Echtzeit-Transkription während des Meetings
+- Automatischer Sprechererkennung
+- Direkter Kalender-Integration
+- Hochwertiger Audioaufnahme
 
 <Note>
-The meeting host may need to admit the bot from the waiting room if guest access is restricted.
+  Der Meeting-Gastgeber muss möglicherweise den Bot aus dem Warteraum zulassen,
+  wenn der Gastzugriff eingeschränkt ist.
 </Note>
 
-[Learn more about Google Meet →](/integrations/google-meet)
+[Mehr über Google Meet erfahren →](/integrations/google-meet)
 
 ### Microsoft Teams
 
-Eagle Noter supports Microsoft Teams meetings:
-- Works with personal and organizational Teams meetings
-- Speaker detection for meeting participants
-- Integration with calendar events
-- Support for guest meeting access
+Eagle Noter unterstützt Microsoft Teams Meetings:
+
+- Funktioniert mit persönlichen und organisatorischen Teams-Meetings
+- Sprechererkennung für Meeting-Teilnehmer
+- Integration mit Kalenderereignissen
+- Unterstützung für Gast-Meeting-Zugriff
 
 <Note>
-For organizational Teams, the host must enable guest access and admit the bot from the lobby.
+  Bei organisatorischen Teams muss der Gastgeber Gastzugriff aktivieren und den
+  Bot aus der Lobby zulassen.
 </Note>
 
-[Learn more about Microsoft Teams →](/integrations/microsoft-teams)
+[Mehr über Microsoft Teams erfahren →](/integrations/microsoft-teams)
 
-## How the Bot Works
+## Wie der Bot funktioniert
 
-### Bot Lifecycle
+### Bot-Lebenszyklus
 
-When you invite the bot to a meeting, here's what happens:
+Wenn Sie den Bot zu einem Meeting einladen, passiert Folgendes:
 
-| Stage | What Happens | Duration |
-|-------|-------------|----------|
-| **Scheduled** | Bot is waiting to join | Until meeting time |
-| **Joining** | Bot connects to the meeting | ~10-30 seconds |
-| **Recording** | Bot captures audio and transcribes | Meeting duration |
-| **Leaving** | Bot disconnects from the meeting | ~5 seconds |
-| **Processing** | AI generates summary and insights | 1-2 minutes |
+| Phase            | Was passiert                              | Dauer                |
+| ---------------- | ----------------------------------------- | -------------------- |
+| **Geplant**      | Bot wartet auf Beitritt                   | Bis zur Meeting-Zeit |
+| **Beitritt**     | Bot verbindet sich mit dem Meeting        | ~10-30 Sekunden      |
+| **Aufnahme**     | Bot erfasst Audio und transkribiert       | Meeting-Dauer        |
+| **Verlassen**    | Bot trennt sich vom Meeting               | ~5 Sekunden          |
+| **Verarbeitung** | KI generiert Zusammenfassung und Insights | 1-2 Minuten          |
 
-### Two Ways to Use the Bot
+### Zwei Wege, den Bot zu nutzen
 
-#### 1. From Your Calendar
+#### 1. Vom Kalender
 
-1. Connect your Google Calendar in the **Calendars** tab
-2. Find your upcoming meeting with a Google Meet or Teams link
-3. Click **Invite Bot** next to the meeting
-4. The bot will join automatically when the meeting starts
+1. Verbinden Sie Ihren Google Kalender im Tab **Kalender**
+2. Finden Sie Ihr bevorstehendes Meeting mit einem Google Meet oder Teams Link
+3. Klicken Sie auf **Bot einladen** neben dem Meeting
+4. Der Bot tritt automatisch bei, wenn das Meeting beginnt
 
-#### 2. Instant Join
+#### 2. Sofort-Beitritt
 
-1. Go to the **Instant Join** tab
-2. Paste any Google Meet or Teams meeting link
-3. Click **Join Meeting**
-4. The bot joins immediately
+1. Gehen Sie zum Tab **Sofort-Beitritt**
+2. Fügen Sie einen beliebigen Google Meet oder Teams Meeting-Link ein
+3. Klicken Sie auf **Meeting beitreten**
+4. Der Bot tritt sofort bei
 
-## What the Bot Does
+## Was der Bot tut
 
-During your meeting, the bot:
+Während Ihres Meetings macht der Bot:
 
-- **Records audio** in high quality
-- **Transcribes speech** in real-time 
-- **Identifies speakers** when possible
-- **Detects the language** being spoken
+- **Nimmt Audio auf** in hoher Qualität
+- **Transkribiert Sprache** in Echtzeit
+- **Identifiziert Sprecher** wenn möglich
+- **Erkennt die Sprache**, die gesprochen wird
 
-After the meeting:
+Nach dem Meeting:
 
-- **Generates AI summary** with key points
-- **Extracts action items** and decisions
-- **Makes everything searchable** across your workspace
-- **Sends email notifications** if configured
+- **Generiert KI-Zusammenfassung** mit Kernpunkten
+- **Extrahiert Aufgaben** und Entscheidungen
+- **Macht alles durchsuchbar** über Ihren Arbeitsbereich
+- **Sendet E-Mail-Benachrichtigungen** falls konfiguriert
 
-## Bot Appearance
+## Bot-Erscheinungsbild
 
-The bot appears as a participant in your meeting with a customizable display name. You can set the bot's name in your workspace **Options**.
+Der Bot erscheint als Teilnehmer in Ihrem Meeting mit einem anpassbaren Anzeigenamen. Sie können den Namen des Bots in Ihren Arbeitsbereichs-**Optionen** festlegen.
 
 <Tip>
-Use a clear name like "Eagle Noter Bot" or "[Your Company] Meeting Notes" so participants know why the bot is in the meeting.
+  Verwenden Sie einen klaren Namen wie "Eagle Noter Bot" oder "[Ihr Unternehmen]
+  Meeting-Notizen", damit Teilnehmer wissen, warum der Bot im Meeting ist.
 </Tip>
 
-## Managing Active Bots
+## Aktive Bots verwalten
 
-### During a Meeting
+### Während eines Meetings
 
-While the bot is active in a meeting, you can:
-- **View live transcription** as it happens
-- **See bot status** (connecting, recording, etc.)
-- **Kick the bot** if you need to stop recording
+Während der Bot in einem Meeting aktiv ist, können Sie:
 
-### After a Meeting
+- **Live-Transkription ansehen** wie sie passiert
+- **Bot-Status sehen** (verbindet, nimmt auf, etc.)
+- **Bot entfernen** wenn Sie die Aufnahme stoppen müssen
 
-Once the meeting ends:
-- The bot automatically leaves
-- Processing begins for AI summary generation
-- You'll receive an email with the summary (if enabled)
-- Full transcript and recording are available in your dashboard
+### Nach einem Meeting
+
+Sobald das Meeting endet:
+
+- Der Bot verlässt automatisch
+- Verarbeitung beginnt für KI-Zusammenfassungs-Generierung
+- Sie erhalten eine E-Mail mit der Zusammenfassung (falls aktiviert)
+- Vollständiges Transkript und Aufnahme sind in Ihrem Dashboard verfügbar
 
 ## Best Practices
 
 <AccordionGroup>
-  <Accordion title="Inform Participants">
-    Let meeting participants know the bot is recording. The bot's presence is visible to all participants.
+  <Accordion title="Teilnehmer informieren">
+    Lassen Sie Meeting-Teilnehmer wissen, dass der Bot aufzeichnet. Die
+    Anwesenheit des Bots ist für alle Teilnehmer sichtbar.
   </Accordion>
-  <Accordion title="Clear Audio">
-    Better audio quality means better transcriptions. Use good microphones and minimize background noise.
+  <Accordion title="Klares Audio">
+    Bessere Audioqualität bedeutet bessere Transkriptionen. Verwenden Sie gute
+    Mikrofone und minimieren Sie Hintergrundgeräusche.
   </Accordion>
-  <Accordion title="One Speaker at a Time">
-    When speakers talk over each other, transcription accuracy decreases. Encourage turn-taking.
+  <Accordion title="Ein Sprecher zur Zeit">
+    Wenn Sprecher übereinander sprechen, nimmt die Transkriptionsgenauigkeit ab.
+    Ermutigen Sie zum Abwechseln.
   </Accordion>
-  <Accordion title="Admit the Bot">
-    If you're the meeting host, be ready to admit the bot from the waiting room or lobby.
+  <Accordion title="Bot zulassen">
+    Wenn Sie der Meeting-Gastgeber sind, seien Sie bereit, den Bot aus dem
+    Warteraum oder der Lobby zuzulassen.
   </Accordion>
 </AccordionGroup>
 
-## Troubleshooting
+## Problembehandlung
 
 <AccordionGroup>
-  <Accordion title="Bot didn't join my meeting">
-    - Check if the meeting link is correct
-    - Ensure the meeting has started
-    - The host may need to admit the bot from the waiting room
-    - Verify your calendar is properly connected
+  <Accordion title="Bot ist meinem Meeting nicht beigetreten">
+    - Überprüfen Sie, ob der Meeting-Link korrekt ist - Stellen Sie sicher, dass
+    das Meeting begonnen hat - Der Gastgeber muss möglicherweise den Bot aus dem
+    Warteraum zulassen - Überprüfen Sie, ob Ihr Kalender richtig verbunden ist
   </Accordion>
-  <Accordion title="Transcription quality is poor">
-    - Use better microphones
-    - Reduce background noise
-    - Ensure speakers don't talk over each other
-    - Check if the correct language is selected in Options
+  <Accordion title="Transkriptionsqualität ist schlecht">
+    - Verwenden Sie bessere Mikrofone - Reduzieren Sie Hintergrundgeräusche -
+    Stellen Sie sicher, dass Sprecher nicht übereinander sprechen - Überprüfen
+    Sie, ob die richtige Sprache in Optionen ausgewählt ist
   </Accordion>
-  <Accordion title="Bot was removed from the meeting">
-    - The host may have kicked the bot
-    - Meeting security settings might block bots
-    - Try re-inviting the bot or use Instant Join
+  <Accordion title="Bot wurde aus dem Meeting entfernt">
+    - Der Gastgeber hat möglicherweise den Bot entfernt -
+    Meeting-Sicherheitseinstellungen blockieren möglicherweise Bots - Versuchen
+    Sie, den Bot erneut einzuladen oder verwenden Sie Sofort-Beitritt
   </Accordion>
 </AccordionGroup>
 
-## Related Features
+## Verwandte Funktionen
 
 <CardGroup cols={2}>
-  <Card title="Real-Time Transcription" icon="microphone" href="/features/real-time-transcription">
-    Learn about our transcription technology
+  <Card
+    title="Echtzeit-Transkription"
+    icon="microphone"
+    href="/features/real-time-transcription"
+  >
+    Erfahren Sie mehr über unsere Transkriptionstechnologie
   </Card>
-  <Card title="AI Summaries" icon="sparkles" href="/features/ai-summaries">
-    Automatic meeting summaries and action items
+  <Card
+    title="KI-Zusammenfassungen"
+    icon="sparkles"
+    href="/features/ai-summaries"
+  >
+    Automatische Meeting-Zusammenfassungen und Aufgaben
   </Card>
-  <Card title="Calendar Sync" icon="calendar" href="/features/calendar-sync">
-    Connect your calendar for easy bot scheduling
+  <Card
+    title="Kalender-Synchronisation"
+    icon="calendar"
+    href="/features/calendar-sync"
+  >
+    Verbinden Sie Ihren Kalender für einfache Bot-Planung
   </Card>
-  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
-    Join any meeting instantly without calendar
+  <Card title="Sofort-Beitritt" icon="bolt" href="/features/instant-join">
+    Treten Sie jedem Meeting sofort ohne Kalender bei
   </Card>
 </CardGroup>

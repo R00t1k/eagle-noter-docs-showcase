@@ -1,118 +1,132 @@
 ---
-title: "Instant Join"
-description: "Join any meeting immediately without calendar integration"
+title: "Sofort-Beitritt"
+description: "Treten Sie jedem Meeting sofort ohne Kalender-Integration bei"
 icon: "bolt"
 ---
 
-## Overview
+## Übersicht
 
-The **Instant Join** feature lets you send the Eagle Noter bot to any active meeting instantly. No calendar integration required - just paste a meeting link and the bot joins immediately.
+Die **Sofort-Beitritt** Funktion ermöglicht es Ihnen, den Eagle Noter Bot sofort zu jedem aktiven Meeting zu senden. Keine Kalender-Integration erforderlich - fügen Sie einfach einen Meeting-Link ein und der Bot tritt sofort bei.
 
-This is perfect for:
-- Ad-hoc meetings that aren't on your calendar
-- Quick calls you want to record
-- Testing the bot before connecting your calendar
-- Joining external meetings you've been invited to
+Dies ist perfekt für:
 
-## How to Use Instant Join
+- Ad-hoc Meetings, die nicht in Ihrem Kalender sind
+- Schnelle Anrufe, die Sie aufzeichnen möchten
+- Testen des Bots, bevor Sie Ihren Kalender verbinden
+- Teilnahme an externen Meetings, zu denen Sie eingeladen wurden
+
+## So nutzen Sie Sofort-Beitritt
 
 <Steps>
-  <Step title="Go to Instant Join">
-    Click **Instant Join** in the sidebar of your workspace dashboard.
+  <Step title="Gehen Sie zu Sofort-Beitritt">
+    Klicken Sie auf **Sofort-Beitritt** in der Seitenleiste Ihres
+    Arbeitsbereichs-Dashboards.
   </Step>
-  <Step title="Paste the Meeting Link">
-    Copy the full meeting URL and paste it into the input field.
-    
-    Supported formats:
-    - Google Meet: `https://meet.google.com/xxx-xxxx-xxx`
-    - Microsoft Teams: `https://teams.microsoft.com/l/meetup-join/...`
+  <Step title="Meeting-Link einfügen">
+    Kopieren Sie die vollständige Meeting-URL und fügen Sie sie in das
+    Eingabefeld ein. Unterstützte Formate: - Google Meet:
+    `https://meet.google.com/xxx-xxxx-xxx` - Microsoft Teams:
+    `https://teams.microsoft.com/l/meetup-join/...`
   </Step>
-  <Step title="Click Join">
-    Click the **Join Meeting** button. The bot will start connecting immediately.
+  <Step title="Klicken Sie auf Beitreten">
+    Klicken Sie auf die Schaltfläche **Meeting beitreten**. Der Bot beginnt
+    sofort mit der Verbindung.
   </Step>
-  <Step title="Admit the Bot">
-    The meeting host must **admit the bot** from the waiting room or lobby.
+  <Step title="Bot zulassen">
+    Der Meeting-Gastgeber muss **den Bot zulassen** aus dem Warteraum oder der
+    Lobby.
   </Step>
 </Steps>
 
-## Supported Platforms
+## Unterstützte Plattformen
 
-| Platform | Support | Notes |
-|----------|---------|-------|
-| Google Meet | ✅ Full support | Host may need to admit from waiting room |
-| Microsoft Teams | ✅ Full support | Host must enable guest access and admit from lobby |
+| Plattform       | Unterstützung                 | Hinweise                                                     |
+| --------------- | ----------------------------- | ------------------------------------------------------------ |
+| Google Meet     | ✅ Vollständige Unterstützung | Gastgeber muss möglicherweise aus Warteraum zulassen         |
+| Microsoft Teams | ✅ Vollständige Unterstützung | Gastgeber muss Gastzugriff aktivieren und aus Lobby zulassen |
 
-## Bot Status
+## Bot-Status
 
-Once you click Join, you'll see the bot's status update in real-time:
+Sobald Sie auf Beitreten klicken, sehen Sie den Status des Bots in Echtzeit aktualisieren:
 
-- **Connecting** - Bot is joining the meeting
-- **Waiting** - Bot is in the waiting room/lobby
-- **Joined** - Bot is in the meeting and recording
-- **Transcribing** - Live transcription is active
+- **Verbindet** - Bot tritt dem Meeting bei
+- **Wartet** - Bot ist im Warteraum/Lobby
+- **Beigetreten** - Bot ist im Meeting und nimmt auf
+- **Transkribiert** - Live-Transkription ist aktiv
 
-## What Happens After Joining
+## Was nach dem Beitritt passiert
 
-While in the meeting:
-- The bot records all audio
-- Real-time transcription appears in your dashboard
-- Speaker identification detects who is talking
+Während des Meetings:
 
-After the meeting ends:
-- The bot automatically leaves
-- AI generates a summary with key points and action items
-- Everything is saved to your meeting history
-- You receive an email notification (if enabled)
+- Der Bot nimmt das gesamte Audio auf
+- Echtzeit-Transkription erscheint in Ihrem Dashboard
+- Sprechererkennung erkennt, wer spricht
 
-## Tips for Best Results
+Nach Ende des Meetings:
+
+- Der Bot verlässt automatisch
+- KI generiert eine Zusammenfassung mit Kernpunkten und Aufgaben
+- Alles wird in Ihrem Meeting-Verlauf gespeichert
+- Sie erhalten eine E-Mail-Benachrichtigung (falls aktiviert)
+
+## Tipps für beste Ergebnisse
 
 <AccordionGroup>
-  <Accordion title="Admit the bot quickly">
-    The bot will wait in the lobby/waiting room. Make sure the host admits it promptly so it doesn't miss any content.
+  <Accordion title="Bot schnell zulassen">
+    Der Bot wartet in der Lobby/im Warteraum. Stellen Sie sicher, dass der
+    Gastgeber ihn schnell zulässt, damit er keinen Inhalt verpasst.
   </Accordion>
-  <Accordion title="Verify the meeting has started">
-    The bot can only join meetings that are active. Make sure at least one person has already joined the meeting.
+  <Accordion title="Überprüfen Sie, dass das Meeting begonnen hat">
+    Der Bot kann nur Meetings beitreten, die aktiv sind. Stellen Sie sicher,
+    dass mindestens eine Person dem Meeting bereits beigetreten ist.
   </Accordion>
-  <Accordion title="Check your language settings">
-    Before joining, make sure your transcription language is set correctly in **Options** for the best results.
+  <Accordion title="Überprüfen Sie Ihre Spracheinstellungen">
+    Stellen Sie vor dem Beitritt sicher, dass Ihre Transkriptionssprache in
+    **Optionen** korrekt eingestellt ist, um beste Ergebnisse zu erzielen.
   </Accordion>
 </AccordionGroup>
 
-## Viewing Instant Join History
+## Sofort-Beitritt Verlauf anzeigen
 
-All meetings you've joined via Instant Join are saved to your **Meetings** tab. You can:
-- View the full transcript
-- Read the AI-generated summary
-- Export subtitles (SRT/VTT)
-- Search across all your instant join sessions
+Alle Meetings, denen Sie über Sofort-Beitritt beigetreten sind, werden in Ihrem Tab **Meetings** gespeichert. Sie können:
 
-## Troubleshooting
+- Die vollständige Transkription ansehen
+- Die KI-generierte Zusammenfassung lesen
+- Untertitel exportieren (SRT/VTT)
+- Über alle Ihre Sofort-Beitritt Sitzungen suchen
+
+## Problembehandlung
 
 <AccordionGroup>
-  <Accordion title="Bot won't join">
-    - Make sure the meeting link is correct and complete
-    - Verify the meeting is active (someone must be in it)
-    - Check that the platform is supported (Google Meet or Teams)
+  <Accordion title="Bot tritt nicht bei">
+    - Stellen Sie sicher, dass der Meeting-Link korrekt und vollständig ist -
+    Überprüfen Sie, dass das Meeting aktiv ist (jemand muss darin sein) - Prüfen
+    Sie, dass die Plattform unterstützt wird (Google Meet oder Teams)
   </Accordion>
-  <Accordion title="Bot stuck in waiting room">
-    - The host needs to admit the bot
-    - For Teams, guest access must be enabled by the organizer
-    - Ask the host to look for the bot in the lobby
+  <Accordion title="Bot steckt im Warteraum fest">
+    - Der Gastgeber muss den Bot zulassen - Für Teams muss der Gastzugriff vom
+    Organisator aktiviert werden - Bitten Sie den Gastgeber, nach dem Bot in der
+    Lobby zu suchen
   </Accordion>
-  <Accordion title="No transcription appearing">
-    - Ensure people are speaking in the meeting
-    - Check your language settings match the spoken language
-    - Give it a few seconds - transcription may have a short delay
+  <Accordion title="Keine Transkription erscheint">
+    - Stellen Sie sicher, dass im Meeting gesprochen wird - Überprüfen Sie, dass
+    Ihre Spracheinstellungen mit der gesprochenen Sprache übereinstimmen - Geben
+    Sie ihm ein paar Sekunden - die Transkription kann eine kurze Verzögerung
+    haben
   </Accordion>
 </AccordionGroup>
 
-## Related Features
+## Verwandte Funktionen
 
 <CardGroup cols={2}>
-  <Card title="Calendar Integration" icon="calendar" href="/features/calendar-sync">
-    Connect your calendar for scheduled bot joins.
+  <Card
+    title="Kalender-Integration"
+    icon="calendar"
+    href="/features/calendar-sync"
+  >
+    Verbinden Sie Ihren Kalender für geplante Bot-Beitritte.
   </Card>
-  <Card title="Meeting Bots" icon="robot" href="/features/meeting-bots">
-    Learn more about how our bots work.
+  <Card title="Meeting-Bots" icon="robot" href="/features/meeting-bots">
+    Erfahren Sie mehr darüber, wie unsere Bots funktionieren.
   </Card>
 </CardGroup>

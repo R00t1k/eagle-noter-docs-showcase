@@ -1,120 +1,131 @@
 ---
 title: "Google Meet Integration"
-description: "Add AI transcription to your Google Meet calls"
+description: "Fügen Sie KI-Transkription zu Ihren Google Meet Anrufen hinzu"
 icon: "google"
 ---
 
-## Overview
+## Übersicht
 
-Eagle Noter works seamlessly with Google Meet. Our bot joins your call as a participant to record audio and generate transcripts and summaries, so you can focus on the conversation.
+Eagle Noter funktioniert nahtlos mit Google Meet. Unser Bot tritt Ihrem Anruf als Teilnehmer bei, um Audio aufzunehmen und Transkripte und Zusammenfassungen zu generieren, damit Sie sich auf das Gespräch konzentrieren können.
 
-## How to Join a Google Meet
+## So treten Sie einem Google Meet bei
 
-### Method 1: Instant Join
+### Methode 1: Sofort-Beitritt
 
-Join any Google Meet instantly:
+Treten Sie jedem Google Meet sofort bei:
 
 <Steps>
-  <Step title="Copy the Meeting Link">
-    Get the Google Meet URL (e.g., `https://meet.google.com/abc-defg-hij`)
+  <Step title="Meeting-Link kopieren">
+    Holen Sie sich die Google Meet URL (z.B.
+    `https://meet.google.com/abc-defg-hij`)
   </Step>
-  <Step title="Go to Instant Join">
-    Open the **Instant Join** tab in your Eagle Noter dashboard
+  <Step title="Gehen Sie zu Sofort-Beitritt">
+    Öffnen Sie den Tab **Sofort-Beitritt** in Ihrem Eagle Noter Dashboard
   </Step>
-  <Step title="Paste and Join">
-    Paste the URL and click **Join Meeting**
+  <Step title="Einfügen und Beitreten">
+    Fügen Sie die URL ein und klicken Sie auf **Meeting beitreten**
   </Step>
-  <Step title="Admit the Bot">
-    The meeting host needs to admit the bot from the waiting room
+  <Step title="Bot zulassen">
+    Der Meeting-Gastgeber muss den Bot aus dem Warteraum zulassen
   </Step>
 </Steps>
 
-### Method 2: From Your Calendar
+### Methode 2: Von Ihrem Kalender
 
-If you've connected your Google Calendar:
+Wenn Sie Ihren Google Kalender verbunden haben:
 
-1. Go to the **Calendars** tab
-2. Find your upcoming meeting with a Google Meet link
-3. Click **Invite Bot** next to the meeting
-4. The bot will join when the meeting starts
+1. Gehen Sie zum Tab **Kalender**
+2. Finden Sie Ihr bevorstehendes Meeting mit einem Google Meet Link
+3. Klicken Sie auf **Bot einladen** neben dem Meeting
+4. Der Bot tritt bei, wenn das Meeting beginnt
 
-[Learn how to connect your calendar →](/features/calendar-sync)
+[Erfahren Sie, wie Sie Ihren Kalender verbinden →](/features/calendar-sync)
 
-## Admitting the Bot
+## Bot zulassen
 
 <Warning>
-Google Meet requires a participant to **admit** the bot from the waiting room. The bot cannot join automatically.
+  Google Meet erfordert, dass ein Teilnehmer den Bot aus dem Warteraum
+  **zulässt**. Der Bot kann nicht automatisch beitreten.
 </Warning>
 
-When the bot tries to join:
+Wenn der Bot versucht beizutreten:
 
-1. A notification appears: *"Eagle Noter wants to join this call"*
-2. Click **Admit** to let the bot in
-3. The bot will start recording immediately
+1. Eine Benachrichtigung erscheint: _"Eagle Noter möchte diesem Anruf beitreten"_
+2. Klicken Sie auf **Zulassen**, um den Bot hereinzulassen
+3. Der Bot beginnt sofort mit der Aufnahme
 
 <Tip>
-If you're the meeting organizer, watch for the "Someone wants to join" notification at the bottom of your screen.
+  Wenn Sie der Meeting-Organisator sind, achten Sie auf die "Jemand möchte
+  beitreten" Benachrichtigung am unteren Rand Ihres Bildschirms.
 </Tip>
 
-## What Eagle Noter Captures
+## Was Eagle Noter erfasst
 
-| Feature | Support |
-|---------|--------|
-| Audio Recording | ✅ High-quality recording |
-| Real-time Transcription | ✅ Live transcription |
-| Speaker Identification | ✅ Detects who is speaking |
-| AI Summary | ✅ Generated after meeting |
-| Multiple Languages | ✅ Auto-detect or select language |
+| Funktion               | Unterstützung                         |
+| ---------------------- | ------------------------------------- |
+| Audioaufnahme          | ✅ Hochwertige Aufnahme               |
+| Echtzeit-Transkription | ✅ Live-Transkription                 |
+| Sprechererkennung      | ✅ Erkennt, wer spricht               |
+| KI-Zusammenfassung     | ✅ Nach Meeting generiert             |
+| Mehrere Sprachen       | ✅ Auto-Erkennung oder Sprache wählen |
 
-## Language Support
+## Sprachunterstützung
 
-Configure your transcription language in **Options**:
+Konfigurieren Sie Ihre Transkriptionssprache in **Optionen**:
 
-- **Auto (Multilingual)** - Automatically detects the language
-- **English** - Optimized for English
-- **German/Swiss German** - Optimized for German dialects
-- **French** - Optimized for French
+- **Auto (Mehrsprachig)** - Erkennt die Sprache automatisch
+- **Englisch** - Optimiert für Englisch
+- **Deutsch/Schweizerdeutsch** - Optimiert für Deutsche Dialekte
+- **Französisch** - Optimiert für Französisch
 
 ## Best Practices
 
 <AccordionGroup>
-  <Accordion title="Admit the bot quickly">
-    The sooner you admit the bot, the less content it will miss. Watch for the notification when the meeting starts.
+  <Accordion title="Bot schnell zulassen">
+    Je schneller Sie den Bot zulassen, desto weniger Inhalt wird er verpassen.
+    Achten Sie auf die Benachrichtigung, wenn das Meeting beginnt.
   </Accordion>
-  <Accordion title="Use good microphones">
-    Better audio quality means better transcription. Use headsets or dedicated microphones when possible.
+  <Accordion title="Gute Mikrofone verwenden">
+    Bessere Audioqualität bedeutet bessere Transkription. Verwenden Sie Headsets
+    oder dedizierte Mikrofone wenn möglich.
   </Accordion>
-  <Accordion title="Inform participants">
-    Let others know the meeting is being recorded. The bot appears as a participant so everyone can see it.
+  <Accordion title="Teilnehmer informieren">
+    Lassen Sie andere wissen, dass das Meeting aufgezeichnet wird. Der Bot
+    erscheint als Teilnehmer, sodass ihn jeder sehen kann.
   </Accordion>
 </AccordionGroup>
 
-## Troubleshooting
+## Problembehandlung
 
 <AccordionGroup>
-  <Accordion title="Bot stuck in waiting room">
-    Make sure someone in the meeting admits the bot. Look for the notification at the bottom of the Google Meet window.
+  <Accordion title="Bot steckt im Warteraum fest">
+    Stellen Sie sicher, dass jemand im Meeting den Bot zulässt. Suchen Sie nach
+    der Benachrichtigung am unteren Rand des Google Meet Fensters.
   </Accordion>
-  <Accordion title="Bot can't join">
-    - Verify the meeting link is correct and complete
-    - Ensure the meeting has started (at least one person must be in it)
-    - Check that the meeting allows guests to join
+  <Accordion title="Bot kann nicht beitreten">
+    - Überprüfen Sie, dass der Meeting-Link korrekt und vollständig ist -Stellen
+    Sie sicher, dass das Meeting begonnen hat (mindestens eine Person muss darin
+    sein) - Prüfen Sie, dass das Meeting Gästen erlaubt beizutreten
   </Accordion>
-  <Accordion title="Poor transcription quality">
-    - Check your microphone settings
-    - Reduce background noise
-    - Ensure speakers don't talk over each other
-    - Verify the correct language is selected in Options
+  <Accordion title="Schlechte Transkriptionsqualität">
+    - Überprüfen Sie Ihre Mikrofoneinstellungen - Reduzieren Sie
+    Hintergrundgeräusche - Stellen Sie sicher, dass Sprecher nicht übereinander
+    sprechen - Überprüfen Sie, dass die richtige Sprache in Optionen ausgewählt
+    ist
   </Accordion>
 </AccordionGroup>
 
-## Related
+## Verwandte
 
 <CardGroup cols={2}>
-  <Card title="Instant Join" icon="bolt" href="/features/instant-join">
-    Learn more about instant meeting joining
+  <Card title="Sofort-Beitritt" icon="bolt" href="/features/instant-join">
+    Erfahren Sie mehr über sofortigen Meeting-Beitritt
   </Card>
-  <Card title="Calendar Sync" icon="calendar" href="/features/calendar-sync">
-    Connect your Google Calendar
+  <Card
+    title="Kalender-Synchronisation"
+    icon="calendar"
+    href="/features/calendar-sync"
+  >
+    Verbinden Sie Ihren Google Kalender
   </Card>
 </CardGroup>

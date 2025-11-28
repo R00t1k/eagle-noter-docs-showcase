@@ -37,7 +37,7 @@
   ],
   "navigation": [
     {
-      "group": "Ersti Schritt",
+      "group": "Erste Schritte",
       "pages": [
         "introduction",
         "getting-started/quickstart",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "group": "Hauptfunktione",
+      "group": "Hauptfunktionen",
       "pages": [
         "features/instant-join",
         "features/calendar-sync",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "group": "Iistellige",
+      "group": "Einstellungen",
       "pages": [
         "features/workspace-management"
       ]
